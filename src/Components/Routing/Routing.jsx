@@ -9,7 +9,6 @@ import Appointment from '../Pages/Appointment'
 
 function Routing() {
 
-
     const router = createBrowserRouter([
         {
             path: "/",
@@ -35,20 +34,10 @@ function Routing() {
             path: "/contact-page",
             element: <Appointment />
         },
-
-        
-       
-        
-        
-
-
-
     ])
-
 
     return (
         <RouterProvider router={router} />
     )
 }
-
 export default Routing

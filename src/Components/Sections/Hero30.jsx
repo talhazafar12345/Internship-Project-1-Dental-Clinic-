@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Footer from "../Footer/Footer";
-
 function Hero30() {
   const [formData, setFormData] = useState({
     name: "",
