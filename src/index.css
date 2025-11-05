@@ -1382,8 +1382,8 @@ input::placeholder{
     padding: 0 15px;
   }
   .sectioncont h1 {
-    font-size: 40px;
-    line-height: 1.2;
+    font-size: 34px;
+    line-height: 1.4;
     width: 100%;
   }
   .sectioncont p {
@@ -1391,9 +1391,11 @@ input::placeholder{
     line-height: 1.8;
   }
   .sectioncont button {
-    width: 150px;
-    height: 38px;
-    font-size: 14px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
   }
   .sectioncont .wel{
     font-size: 16px;
@@ -1450,6 +1452,7 @@ input::placeholder{
   }
   .apw h1 {
     font-size: 30px;
+    line-height: 1.4;
     width: 80%;
     margin-left: 20px;
     margin-top: 10px;
@@ -1518,6 +1521,7 @@ input::placeholder{
   }
   .mdt h1 {
     font-size: 30px;
+    line-height: 1.4;
     width: 80%;
     margin: auto;
   }
@@ -1559,6 +1563,12 @@ input::placeholder{
     padding: 10px;
     text-align: center;
   }
+  .drsarah .lead{
+    font-size: 16px;
+  }
+  .drsarah .drnamm{
+    font-size: 18px;
+  }
   .allnum {
     flex-direction: column;
     align-items: center;
@@ -1590,6 +1600,7 @@ input::placeholder{
   }
   .faq-left h1 {
     font-size: 30px;
+    line-height: 1.4;
     width: 100%;
   }
   .faq-left p {
@@ -1824,6 +1835,7 @@ input::placeholder{
   }
   .apws h1 {
     font-size: 30px;
+    line-height: 1.4;
     text-align: left;
     margin-left: 20px;
   }

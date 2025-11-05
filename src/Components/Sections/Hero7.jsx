@@ -11,28 +11,28 @@ function Hero7() {
                 <div className="sarah">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/dentists-img1.jpg" alt="" />
                     <div className="drsarah">
-                        <p>Dr. Sarah Bennet</p>
+                        <p className="drnamm">Dr. Sarah Bennet</p>
                         <p className="lead">Lead Dentist</p>
                     </div>
                 </div>
                 <div className="sarah">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/dentists-img2.jpg" alt="" />
                     <div className="drsarah">
-                        <p>Dr. Mayan Layn</p>
+                        <p className="drnamm">Dr. Mayan Layn</p>
                         <p className="lead">Cosmetic Dentist</p>
                     </div>
                 </div>
                 <div className="sarah">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/dentists-img3.jpg" alt="" />
                     <div className="drsarah">
-                        <p>Dr. Michael Reyees</p>
+                        <p className="drnamm">Dr. Michael Reyees</p>
                         <p className="lead">Pediatric Specialist</p>
                     </div>
                 </div>
                 <div className="sarah">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/dentists-img4.jpg" alt="" />
                     <div className="drsarah">
-                        <p>Dr. James Carter</p>
+                        <p className="drnamm">Dr. James Carter</p>
                         <p className="lead">Dental Hygienist</p>
                     </div>
                 </div>

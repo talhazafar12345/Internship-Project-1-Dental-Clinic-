@@ -1,8 +1,4 @@
 
-
-
-
-
 import { Link } from "react-router-dom"
 function Hero34() {
     return (
