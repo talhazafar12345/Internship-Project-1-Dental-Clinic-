@@ -4,7 +4,6 @@
   font-family: 'Poppins', sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
-
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -13,29 +12,24 @@
   background-color: #ebf2fa;
   padding-top: 30px;
 }
-
 .navImage img {
   width: 140px;
 }
-
 .navLinks {
   display: flex;
   gap: 25px;
 }
-
 .reveal {
   opacity: 0;
   transform: translateY(40px);
   transition: all 0.8s ease;
 }
-
 .link {
   text-decoration: none;
   color: #333;
   font-size: 16px;
   font-weight: bold;
 }
-
 .link:hover {
   color: #4a7cd2;
 }
