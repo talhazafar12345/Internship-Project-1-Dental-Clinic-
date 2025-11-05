@@ -4,12 +4,6 @@ import Hero15 from "../Sections/Hero15"
 import Hero16 from "../Sections/Hero16"
 import {useEffect} from "react"
 import Hero18 from "../Sections/Hero18"
-
-
-
-
-
-
 function About() {
     useEffect(()=>{
 
