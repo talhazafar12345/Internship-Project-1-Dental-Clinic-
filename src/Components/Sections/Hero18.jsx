@@ -1,8 +1,4 @@
 import Footer from "../Footer/Footer";
-
-
-
-
 function Hero18() {
   return (
     <div>

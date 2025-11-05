@@ -1120,6 +1120,10 @@ hr {
   min-width: 300px;
   color: #333;
 }
+
+.contact-info .geti{
+  font-size: 16px;
+}
 .contact-info .geti {
   color: #4b7edb;
   font-weight: 600;
@@ -1211,7 +1215,7 @@ hr {
 }
 .time .sched {
   margin-top: -1px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .mtime {
   display: flex;
@@ -1280,6 +1284,9 @@ hr {
 }
 .cbutton button:hover {
   background-color: black;
+}
+input::placeholder{
+  font-size: 16px;
 }
 
 @media (max-width: 500px) {
@@ -1380,13 +1387,16 @@ hr {
     width: 100%;
   }
   .sectioncont p {
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.8;
   }
   .sectioncont button {
     width: 150px;
     height: 38px;
     font-size: 14px;
+  }
+  .sectioncont .wel{
+    font-size: 16px;
   }
   .hdiv {
     justify-content: center;
@@ -1439,19 +1449,20 @@ hr {
     top: 30px;
   }
   .apw h1 {
-    font-size: 35px;
+    font-size: 30px;
     width: 80%;
     margin-left: 20px;
     margin-top: 10px;
   }
   .about {
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     bottom: 10px;
     margin-left: 20px;
   }
   .woh {
     font-size: 16px;
+    line-height: 1.8;
     width: 94%;
     margin-left: 20px;
   }
@@ -1506,7 +1517,7 @@ hr {
     padding-top: 60px;
   }
   .mdt h1 {
-    font-size: 40px;
+    font-size: 30px;
     width: 80%;
     margin: auto;
   }
@@ -1518,7 +1529,7 @@ hr {
     font-size: 16px;
     width: 90%;
     margin-top: 20px;
-    line-height: 1.6;
+    line-height: 1.8;
   }
   .allsarah {
     flex-direction: column;
@@ -1582,7 +1593,7 @@ hr {
     width: 100%;
   }
   .faq-left p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
   }
   .faq-left {
@@ -1597,9 +1608,13 @@ hr {
     font-size: 16px;
     padding: 14px 0;
   }
+  .question{
+    font-size: 16px;
+  }
   .accordion-content {
     right: 0;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.8;
   }
   .symbol {
     font-size: 20px;
@@ -1662,21 +1677,24 @@ hr {
     margin-bottom: 10px;
   }
   .testimonial-card p {
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.8;
     margin-bottom: 8px;
   }
   .testimonial-card h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .testimonial-card span {
-    font-size: 13px;
+    font-size: 16px;
   }
   .testi h2 {
-    font-size: 25px;
+    font-size: 30px;
+  }
+  .testi .rtg{
+    font-size: 16px;
   }
   .testi .trg {
-    font-size: 17px;
+    font-size: 16px;
     width: 90%;
     text-align: justify;
   }
@@ -1691,11 +1709,15 @@ hr {
   .footer-col {
     width: 100%;
   }
+
+  .abc{
+    font-size: 16px;
+  }
   .ppp,
   .bbm {
     left: 0;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.8;
     text-align: center;
   }
   .footer-logo img {
@@ -1704,7 +1726,8 @@ hr {
     left: 0;
   }
   .mpp {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.8;
     width: 90%;
     margin: auto;
     margin-right: 40px;
@@ -1728,7 +1751,7 @@ hr {
   }
   .footer h4 {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .footer-bottom {
     flex-direction: column;
@@ -1805,7 +1828,7 @@ hr {
     margin-left: 20px;
   }
   .abouts {
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
     margin-top: 20px;
     margin-left: 20px;
@@ -1819,6 +1842,8 @@ hr {
   .wohs {
     text-align: left;
     margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.8;
   }
   .ped {
     margin-left: 20px;
@@ -1872,6 +1897,7 @@ hr {
   }
   .feature p {
     font-size: 16px;
+    line-height: 1.8;
   }
   .hero16-right {
     flex: none;
@@ -1904,7 +1930,11 @@ hr {
     width: 80%;
   }
   .ser1 p {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .ser1 h2{
+    font-size: 20px;
   }
   .aks {
     position: relative;
@@ -1980,7 +2010,7 @@ hr {
   .section li,
   .section div {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.8;
   }
   .section ul {
     padding-left: 18px;
@@ -2020,7 +2050,7 @@ hr {
   }
   .contact-info p {
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.8;
     text-align: justify;
   }
   .mtime,
@@ -2085,6 +2115,7 @@ hr {
   }
   .doct h1 {
     margin-top: 80px;
+    font-size: 30px;
   }
   .dddinp {
     width: 100%;
