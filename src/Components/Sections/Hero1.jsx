@@ -21,8 +21,8 @@ function Hero1() {
           <Link to={"/contact-page"} className="link">Appointment</Link>
         </div>
         <div className="navButton">
-          <button>Signup</button>
-          <button>Login</button>
+          <Link to={"/signup-page"}><button>Signup</button></Link>
+          <Link to={"/login-page"}><button>Login</button></Link>
         </div>
         <div className="hamburger" onClick={toggleSidebar}>
           ☰
@@ -54,8 +54,8 @@ function Hero1() {
           Appointment
         </Link>
         <div className="side-buttons">
-          <button>Signup</button>
-          <button>Login</button>
+          <Link className="qlin" to={"/signup-page"}><button>Signup</button></Link>
+          <Link to={"/login-page"} className="qlins"><button>Login</button></Link>
         </div>
       </div>
       {isOpen && <div className="overlay" onClick={toggleSidebar}></div>}

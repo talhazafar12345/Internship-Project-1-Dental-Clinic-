@@ -13,7 +13,7 @@ function Hero20() {
         <div className="ser1">
             <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-2-70x70.png" alt="" />
             <h2>Cosmetic Dentistry</h2>
-            <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
+            <p>Enhance your smile’s beauty with whitening, veneers, and more  for dental protection.</p>
              <button>Read More</button>
         </div>
         <div className="ser2">

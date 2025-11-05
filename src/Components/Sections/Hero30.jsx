@@ -8,15 +8,13 @@ function Hero30() {
     message: "",
   });
   const [errors, setErrors] = useState({});
-  const [formError, setFormError] = useState(""); // 🔹 new error box message
-
+  const [formError, setFormError] = useState(""); 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
     setErrors({ ...errors, [name]: "" });
-    setFormError(""); // remove alert box once user starts typing
+    setFormError("");
   };
-
   const validate = () => {
     const newErrors = {};
     if (!formData.name) newErrors.name = "Please enter your Name";
@@ -27,7 +25,6 @@ function Hero30() {
     if (!formData.message) newErrors.message = "Please enter your Message";
     return newErrors;
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validate();
@@ -36,12 +33,10 @@ function Hero30() {
       setFormError("⚠️ One or more fields have an error. Please check and try again.");
       return;
     }
-
     alert("Message sent successfully ✅");
     setFormData({ name: "", email: "", phone: "", message: "" });
     setFormError("");
   };
-
   return (
     <div>
       <div className="contact-wrapper">
@@ -53,7 +48,6 @@ function Hero30() {
             the place to do it. Please fill out the form below with your details and
             message, and we’ll get back to you as soon as possible.
           </p>
-
           <div className="mtime">
             <div className="time">
               <p>
@@ -61,7 +55,6 @@ function Hero30() {
               </p>
               <p className="sched">Monday – Friday 08.00 – 18.00</p>
             </div>
-
             <div className="time">
               <p className="cir">
                 <i className="fa-solid fa-location-dot xcv"></i> <span className="hjh"> Clinic Location</span>
@@ -69,7 +62,6 @@ function Hero30() {
               <p className="sched">100 S Main St, New York</p>
             </div>
           </div>
-
           <div className="mtimes">
             <div className="time kkp">
               <p className="cir">
@@ -77,7 +69,6 @@ function Hero30() {
               </p>
               <p className="sched">+1 123 456 789</p>
             </div>
-
             <div className="time">
               <p className="cir">
                 <i className="fa-solid fa-message xcv"></i> <span className="hjh"> Send a Messsage</span>
@@ -86,11 +77,9 @@ function Hero30() {
             </div>
           </div>
         </div>
-
         <div className="contact-form">
-          <form onSubmit={handleSubmit} noValidate>
+          <form onSubmit={handleSubmit}>
             <h3>Get In Touch</h3>
-
             <div className="contact-field">
               <input
                 type="text"
@@ -99,9 +88,8 @@ function Hero30() {
                 value={formData.name}
                 onChange={handleChange}
               />
-              {errors.name && <p className="error-text">{errors.name}</p>}
+              {errors.name && <p style={{marginLeft:"4px"}} className="error-text" >{errors.name}</p>}
             </div>
-
             <div className="contact-field">
               <input
                 type="email"
@@ -110,9 +98,8 @@ function Hero30() {
                 value={formData.email}
                 onChange={handleChange}
               />
-              {errors.email && <p className="error-text">{errors.email}</p>}
+              {errors.email && <p style={{marginLeft:"4px"}} className="error-text">{errors.email}</p>}
             </div>
-
             <div className="contact-field">
               <input
                 type="text"
@@ -121,9 +108,8 @@ function Hero30() {
                 value={formData.phone}
                 onChange={handleChange}
               />
-              {errors.phone && <p className="error-text">{errors.phone}</p>}
+              {errors.phone && <p style={{marginLeft:"4px"}} className="error-text">{errors.phone}</p>}
             </div>
-
             <div className="contact-field">
               <textarea
                 name="message"
@@ -131,24 +117,19 @@ function Hero30() {
                 value={formData.message}
                 onChange={handleChange}
               ></textarea>
-              {errors.message && <p className="error-text">{errors.message}</p>}
+              {errors.message && <p style={{marginLeft:"4px"}} className="error-text">{errors.message}</p>}
             </div>
-
             <button type="submit" className="btn-send">
               Send Message
             </button>
-
-            {/* 🔹 Error Box moved below the button */}
             {formError && <div className="error-box">{formError}</div>}
           </form>
         </div>
       </div>
-
       <div className="mdkl">
         <Footer />
       </div>
     </div>
   );
 }
-
 export default Hero30;

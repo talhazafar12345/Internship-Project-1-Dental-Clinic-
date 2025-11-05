@@ -13,7 +13,7 @@ function Hero15() {
             <div className="apws">
                 <p className="abouts">Brief</p>
                 <h1>Professionals and Personalized Dental Excellence</h1>
-                <p className="wohs">At our Dental Clinic, we are dedicated to providing exceptional dental care in a warm, welcoming environment. Our clinic combines cutting-edge technology with a compassionate approach to ensure that every patient receives the highest quality of care. From preventive checkups and cleanings to advanced cosmetic and restorative treatments, we tailor every service to meet the unique needs of each individual and family.</p>
+                <p className="wohs">At our Dental Clinic, we are dedicated to providing exceptional dental care in a warm, welcoming environment. Our clinic combines cutting-edge technology with a compassionate approach to ensure that every patient receives the highest quality of care. From preventive checkups and cleanings to advanced cosmetic and restorative treatments for family.</p>
                 <div className="faci ped">
                     <div className="df">
                         <i class="fa-solid fa-check"></i>
