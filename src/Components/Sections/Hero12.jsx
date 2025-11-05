@@ -49,7 +49,6 @@ const testimonials = [
     img: "https://randomuser.me/api/portraits/women/52.jpg",
   },
 ];
-
 function Hero12() {
   return (
     <div className="testimonials-section">
@@ -66,5 +65,4 @@ function Hero12() {
     </div>
   );
 }
-
 export default Hero12;

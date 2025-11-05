@@ -14,7 +14,6 @@ function Hero9() {
     const getRes = () => {
         setRes(!res);
     };
-
     const getFinal = () => {
         setGet(!get);
     };

@@ -9,13 +9,8 @@ import Hero25 from "./Hero25"
 function Hero16() {
     return (
         <div>
-
             <div className="doct">
-
-
-
                 <h1>Doctors</h1>
-
                 <Hero22 />
                 <div className="hkp">
                     <Hero23 />

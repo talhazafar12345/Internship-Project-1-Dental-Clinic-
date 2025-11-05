@@ -1,6 +1,4 @@
 
-
-
 function Hero6() {
     return (
         <div>

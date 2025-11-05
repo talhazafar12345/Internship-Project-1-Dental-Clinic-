@@ -73,5 +73,4 @@ function Hero33() {
         </div>
     );
 }
-
 export default Hero33;

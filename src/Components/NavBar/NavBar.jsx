@@ -8,16 +8,9 @@ import Hero5 from "../Sections/Hero5"
 import Hero6 from "../Sections/Hero6"
 import Hero7 from "../Sections/Hero7"
 import Hero9 from "../Sections/Hero9"
-
-
-
-
-
-
 function NavBar() {
   return (
     <div>
-
         <Hero1 />
         <Hero2 />
         <Hero4 />
@@ -28,12 +21,7 @@ function NavBar() {
         <Hero10 />
         <Hero11 />
         <Footer />
-
-
-
-      
     </div>
   )
 }
-
 export default NavBar

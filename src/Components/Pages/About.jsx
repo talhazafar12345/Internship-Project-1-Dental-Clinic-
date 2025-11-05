@@ -11,7 +11,6 @@ import Hero18 from "../Sections/Hero18"
 
 
 function About() {
-
     useEffect(()=>{
 
         window.scrollTo(0,0)
@@ -28,5 +27,4 @@ function About() {
     </div>
   )
 }
-
 export default About

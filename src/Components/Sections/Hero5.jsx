@@ -1,10 +1,6 @@
 import 'animate.css';
-
-
 function Hero5() {
-   
     return (
-        
         <div className="wdiv">
             <div className="dimg">
                 <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/exceptional2.jpg" alt="" />

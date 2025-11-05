@@ -33,5 +33,4 @@ function Hero20() {
     </div>
   )
 }
-
 export default Hero20

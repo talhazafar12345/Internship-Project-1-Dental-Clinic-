@@ -11,7 +11,7 @@ function Hero10() {
     return (
         <>
             <section className="hero" id="clinic">
-                
+
                 <div className="play-btn" onClick={openPopup}></div>
             </section>
             {isOpen && (

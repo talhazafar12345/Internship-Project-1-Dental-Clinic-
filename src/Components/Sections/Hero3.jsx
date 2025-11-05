@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 function Hero3() {
   return (
     <div className="opening-card">
