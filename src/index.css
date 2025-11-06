@@ -1233,9 +1233,7 @@ hr {
   color: #10244b;
   font-weight: 600;
 }
-.vvb {
-  margin-top: 90px;
-}
+
 .uinp {
   text-align: center;
   margin-top: 40px;
@@ -1287,6 +1285,15 @@ hr {
 }
 input::placeholder{
   font-size: 16px;
+}
+.abf{
+  margin-top: 50px;
+}
+.abff{
+  margin-top: 50px;
+}
+.abfff{
+  margin-top: 50px;
 }
 
 @media (max-width: 500px) {
@@ -1438,7 +1445,7 @@ input::placeholder{
     width: 90%;
     border-radius: 20px;
     position: relative;
-    top: 10px;
+    top: -4px;
   }
   .aaimg {
     flex-direction: column;
@@ -1863,9 +1870,7 @@ input::placeholder{
   .dep {
     margin-left: 20px;
   }
-  .hdf {
-    margin-top: 80px;
-  }
+
   .mdt .edts {
     font-size: 16px;
     width: 90%;
@@ -1933,10 +1938,12 @@ input::placeholder{
   }
   .hero16-img.small {
     height: auto;
+    margin-top: 19px;
   }
   .allserimg {
     flex-direction: column;
     align-items: center;
+    
   }
   .ser1 {
     width: 80%;
@@ -2039,7 +2046,7 @@ input::placeholder{
     display: none;
   }
   .abf {
-    margin-top: -80px;
+    margin-top: 70px;
   }
   .contact-wrapper {
     flex-direction: column;
@@ -2159,6 +2166,13 @@ input::placeholder{
     text-align: center;
     padding-top: 4px;
   }
+  .abff{
+    margin-top: -60px;
+  }
+  .abfff{
+    margin-top:15px ;
+  }
+}
 
 
 
@@ -2168,32 +2182,224 @@ input::placeholder{
 
 
 
+@media screen and (min-width: 921px) and (max-width: 1030px) {
+
+ .navBar {
+    padding: 10px 25px;
+  }
+  .navImage img {
+    width: 120px;
+  }
+  .link {
+    font-size: 15px;
+  }
+  .navButton button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .hero {
+    height: 70vh;
+    top: 50px;
+  }
+  .section img {
+    width: 480px;
+    margin-right: 20px;
+  }
+  .sectioncont h1 {
+    font-size: 35px;
+    line-height: 1.4;
+  }
+  .sectioncont p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .sectioncont button {
+    width: 150px;
+    height: 36px;
+    font-size: 15px;
+  }
+
+.apw{
+  position: relative;
+  right: 40px;
+}
+  .apw h1,
+  .apws h1 {
+    font-size: 34px;
+  }
+  .woh,
+  .wohs {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .faci{
+    gap: 10px;
+    font-size: 15px;
+  }
+  .facis{
+    gap:40px ;
+    font-size: 15px;
+  }
+
+.df {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.states {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.jkp h3{
+  font-size: 18px;
+}
+.pkimg img{
+  width: 100%;
+}
+
+.hkimg img{
+  width: 100%;
+}
+.pedd{
+margin-left: 38px;
+}
+
+.profile-right{
+  position: relative;
+  bottom: 40px;
+}
+.profile-card{
+  width: 85%;
+}
+.section div{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  line-height: 1.6;
+  
+}
+.section p{
+  font-size: 16px;
+}
 
 
 
 
+  .general {
+    margin-left: 20px;
+    bottom: 60px;
+  }
+  .gbutton button,
+  .albtn button,
+  .albtns button {
+    width: 150px;
+    height: 36px;
+    font-size: 15px;
+  }
 
+  .allsarah {
+    gap: 10px;
+  }
+  .sarah img {
+    width: 240px;
+  }
+  .drsarah {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+  }
 
+  .faq-container {
+    flex-direction: column;
+    padding: 30px 5%;
+    gap: 20px;
+  }
+  .faq-left h1 {
+    font-size: 32px;
+  }
+  .accordion {
+    right: 0;
+    font-size: 16px;
+  }
+  .accordion-content {
+    right: 0;
+    font-size: 15px;
+  }
 
+  .contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+  }
+  .contact-info h2 {
+    font-size: 32px;
+  }
+  .contact-info p {
+    font-size: 15px;
+  }
+  .contact-form {
+    max-width: 90%;
+    left: 0;
+    padding: 20px;
+  }
 
+  .testimonial-card {
+    flex: 0 0 260px;
+  }
+  .testimonial-card p {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 40px 15px;
+  }
+  .footer h4 {
+    font-size: 17px;
+  }
+  .footer p,
+  .footer-links a {
+    font-size: 14px;
+  }
+  .footer-logo img {
+    width: 120px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .uinp {
+    width: 480px;
+    padding: 30px 0;
+  }
+  .dddinp input {
+    width: 400px;
+  }
+  .cbutton button {
+    width: 150px;
+    height: 36px;
+  }
+  .dimg img{
+    width: 23%;
+  }
+  .aimg img{
+    width: 85%;
+  }
+  .kimg img{
+    width: 78%;
+  }
+  
 }

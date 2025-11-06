@@ -24,7 +24,7 @@ function Hero23() {
                         <div><i class="fa-solid fa-check blue"></i> Best Periodontist – Pennsylvania Dental Association (2023)</div>
                         <div><i class="fa-solid fa-check blue"></i> Clinical Research Award – American Dental Association (2020)</div>
                     </div>
-                    <div class="social">
+                    <div class="social ">
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-linkedin-in"></i>

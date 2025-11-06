@@ -4,18 +4,18 @@ function Hero28() {
     return (
         <div className="aks">
             <div className="allserimg kk1">
-                <div className="ser1 kk2">
+                <div className="ser1 kk2 mmf">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-4-70x70.png" alt="" />
                     <p className="dolar">$ 25.00 per visit</p>
 
                     <h2>Restortative Dentistry</h2>
-                    <p>Restore damaged teeth with fillings, crowns, and advanced treatments for life</p>
+                    <p>Restore damaged teeth with fillings, crowns, and advanced treatments for life.</p>
                     <button>Read More</button>
                 </div>
                 <div className="ser2 srr">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/exceptional2.jpg" alt="" />
                 </div>
-                <div className="ser1 kk2">
+                <div className="ser1 kk2 mmh">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-5-70x70.png" alt="" />
                     <p className="dolar">$ 18.00 per visit</p>
 
@@ -28,7 +28,7 @@ function Hero28() {
                     <p className="dolar">$ 27.00 per visit</p>
 
                     <h2>Orthodontics</h2>
-                    <p>Straighten your teeth and perfect your smile with braces or aligners.</p>
+                    <p>Straighten your teeth and perfect your smile with braces or aligners of your health.</p>
                     <button>Read More</button>
                 </div>
             </div>

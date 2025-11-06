@@ -7,7 +7,7 @@ function Hero20() {
         <div className="ser1">
             <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-1-70x70.png" alt="" />
             <h2>General Dentistry</h2>
-            <p>Complete oral care for every smile with cleanings, exams, and more.</p>
+            <p>Complete oral care for every smile with cleanings, exams, and more for your health</p>
              <button>Read More</button>
         </div>
         <div className="ser1">
@@ -22,12 +22,12 @@ function Hero20() {
         <div className="ser1">
             <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-3-70x70.png" alt="" />
             <h2>Pediatric Dentistry</h2>
-            <p>Gentle and fun dental care for kids to grow healthy, happy smiles.</p>
+            <p>Gentle and fun dental care for kids to grow healthy, happy smiles and many more.</p>
              <button>Read More</button>
         </div>
          </div>
          <Hero21 />
-         <div className="ghb">
+         <div className="abfff">
             <Footer />
          </div>
     </div>

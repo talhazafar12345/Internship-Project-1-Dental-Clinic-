@@ -67,7 +67,7 @@ function Hero33() {
                     {formError && <p style={{ color: "red", marginTop: "5px", marginLeft: "3px" }} className="form-error">{formError}</p>}
                 </form>
             </div>
-            <div className="vvb">
+            <div className="abf">
                 <Footer />
             </div>
         </div>

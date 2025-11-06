@@ -100,7 +100,7 @@ function Hero32() {
           {formError && <p className="errors-texts" style={{ color: "red" }}>{formError}</p>}
         </form>
       </div>
-      <div className="vvb">
+      <div className="abf">
         <Footer />
       </div>
     </div>
