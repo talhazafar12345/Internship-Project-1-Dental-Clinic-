@@ -1468,10 +1468,7 @@ input::placeholder {
 
 @media (max-width: 500px) {
 
-
-  *{
-    box-sizing: border-box;
-  }
+ 
   .navLinks,
   .navButton {
     display: none;
@@ -1491,7 +1488,7 @@ input::placeholder {
     position: fixed;
     top: 0;
     left: 100%;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     background-color: #fff;
     display: flex;
@@ -1512,6 +1509,7 @@ input::placeholder {
     margin-bottom: 25px;
     color: black;
     display: block;
+    margin-right: 50px;
   }
 
   .side-link {
@@ -1527,13 +1525,7 @@ input::placeholder {
 
   }
 
-  .side-buttons button {
-    margin-top: 20px;
-    display: flex;
-    gap: 0;
-    flex-direction: column;
-    width: 100%;
-  }
+
 
   .qlin {
     text-decoration: none;
@@ -1554,6 +1546,11 @@ input::placeholder {
     cursor: pointer;
     height: 40px;
     font-size: 18px;
+    width: 90%;
+     margin-top: 20px;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
   }
 
   .overlay {
@@ -2010,7 +2007,7 @@ input::placeholder {
     line-height: 1.8;
     width: 90%;
     margin: auto;
-    margin-right: 40px;
+    margin-right: 50px;
     text-align: justify;
   }
 
