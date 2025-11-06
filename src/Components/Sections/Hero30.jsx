@@ -126,7 +126,7 @@ function Hero30() {
           </form>
         </div>
       </div>
-      <div className="abf">
+      <div className="abffa">
         <Footer />
       </div>
     </div>

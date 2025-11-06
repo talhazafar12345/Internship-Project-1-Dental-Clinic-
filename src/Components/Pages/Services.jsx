@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer"
 import Hero1 from "../Sections/Hero1"
 import Hero19 from "../Sections/Hero19"
 import Hero20 from "../Sections/Hero20"
@@ -11,6 +12,11 @@ function Services() {
       <Hero1 />
       <Hero19 />
       <Hero20 />
+      <div className="abffa">
+
+     
+      <Footer />
+       </div>
 
     </div>
   )

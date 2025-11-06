@@ -1,4 +1,5 @@
 import Hero3 from "./Hero3"
+
 function Hero2() {
     return (
         <div>
@@ -19,9 +20,11 @@ function Hero2() {
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/c1.png" alt="" />
                 </div>
             </div>
-            <div className="hdiv">
-                <Hero3 />
-            </div>
+            
+             <div className="hdiv">
+                        <Hero3 />
+                        
+                    </div>
         </div>
     )
 }
