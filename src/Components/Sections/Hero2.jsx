@@ -1,4 +1,3 @@
-import Hero3 from "./Hero3"
 
 function Hero2() {
     return (
@@ -21,10 +20,7 @@ function Hero2() {
                 </div>
             </div>
             
-             <div className="hdiv">
-                        <Hero3 />
-                        
-                    </div>
+            
         </div>
     )
 }

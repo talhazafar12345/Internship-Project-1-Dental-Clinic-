@@ -4,6 +4,9 @@
   font-family: 'Poppins', sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
+body{
+  overflow-x: hidden;
+}
 
 
 
@@ -102,6 +105,7 @@
 
 .sectioncont {
   margin-left: 30px;
+  margin-top: 40px;
   
   
 }
@@ -145,106 +149,12 @@
   font-weight: bold;
 }
 
-.opening-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 15px;
-  background-color: #001d6e;
-  padding: 18px 25px;
-  border-radius: 15px;
-  width: 270px;
-  height: 85px;
-}
 
-.clock {
-  font-size: 55px;
-  color: white !important;
-}
 
-.text-box h3 {
-  font-size: 19px;
-  font-weight: 600;
-  color: white !important;
-}
 
-.text-box p {
-  font-size: 15px;
-  margin: 3px 0;
-  font-weight: bold;
-  color: white !important;
- 
-}
 
-.text-box {
-  position: relative;
-  right: 12px;
-  line-height: 1.5;
-}
 
-.hdiv {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  bottom: 350px;
-  right: 50px;
-  color: white;
-  
-}
 
-.opening-cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  background-color: white;
-  padding: 18px 25px;
-  border-radius: 15px;
-  color: white !important;
-  width: 300px;
-  height: 85px;
-  margin: auto;
-
-  left: 200px;
-  position: relative;
-  bottom: 310px;
-}
-
-.icon-boxs {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-}
-
-.phone {
-  color: #4a7cd2;
-  font-size: 55px;
-}
-
-.text-boxs h3 {
-  font-size: 19px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.text-boxs p {
-  font-size: 17px;
-  margin: 3px 0 0 0;
-  opacity: 0.9;
-  font-weight: bold;
-  color: #adb7c2;
-}
-
-.text-boxs {
-  position: relative;
-  right: 12px;
-  line-height: 1.5;
-  color: black;
-}
 
 .hr {
   margin-top: 30px;
@@ -373,7 +283,7 @@
   display: flex;
   margin-left: 50px;
   position: relative;
-  bottom: 100px;
+  bottom: 10px;
 }
 
 .jkp {
@@ -382,8 +292,7 @@
 }
 
 .wdiv {
-  position: relative;
-  bottom: 100px;
+margin-top: 100px;
 }
 
 .gbutton button {
@@ -452,6 +361,7 @@
 .aasarah {
   background-color: #ebf2fa;
   padding-top: 140px;
+  margin-top: 80px;
 }
 
 .mdtt {
@@ -1558,6 +1468,10 @@ input::placeholder {
 
 @media (max-width: 500px) {
 
+
+  *{
+    box-sizing: border-box;
+  }
   .navLinks,
   .navButton {
     display: none;
