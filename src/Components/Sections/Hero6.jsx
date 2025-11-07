@@ -16,7 +16,7 @@ function Hero6() {
                 <div className="mmm">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-2-70x70.png" alt="" />
                     <div className="jkp">
-                        <h3>General Dentisary</h3>
+                        <h3>Cosmetic Dentisary</h3>
                         <p>Enhance your smile’s beauty with whitening, veneers, and more.</p>
                         <div className="gbutton">
                             <button>Read More</button>

@@ -105,7 +105,7 @@ body {
 }
 
 .sectioncont {
-  margin-left: 30px;
+  margin-left: 43px;
   margin-top: 40px;
 
 
@@ -1966,6 +1966,10 @@ input::placeholder {
     line-height: 1.8;
     margin-bottom: 8px;
   }
+  .ric{
+    position: relative;
+    left: 0;
+  }
 
   .testimonial-card h3 {
     font-size: 18px;
@@ -2566,21 +2570,19 @@ input::placeholder {
 
 @media screen and (min-width: 501px) and (max-width: 580px) {
 
+
   .navLinks,
   .navButton {
     display: none;
   }
-
   .hamburger {
     display: block;
     font-size: 28px;
     cursor: pointer;
   }
-
   .navBar {
     padding: 15px 20px;
   }
-
   .sidebar {
     position: fixed;
     top: 0;
@@ -2594,11 +2596,9 @@ input::placeholder {
     transition: left 0.35s ease;
     z-index: 200;
   }
-
   .sidebar.open {
     left: 0;
   }
-
   .close-btn {
     font-size: 28px;
     align-self: flex-end;
@@ -2613,7 +2613,7 @@ input::placeholder {
     text-decoration: none;
     color: #333;
     margin: 12px 0;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
   }
 
@@ -2621,8 +2621,6 @@ input::placeholder {
     color: #4a7cd2;
 
   }
-
-
 
   .qlin {
     text-decoration: none;
@@ -2634,6 +2632,8 @@ input::placeholder {
     bottom: 10px;
   }
 
+
+
   .side-buttons button {
     padding: 8px;
     border: none;
@@ -2642,17 +2642,13 @@ input::placeholder {
     border-radius: 10px;
     cursor: pointer;
     height: 40px;
-    font-size: 18px;
+    font-size: 20px;
     width: 90%;
     margin-top: 20px;
-
     display: flex;
     justify-content: center;
-    /* horizontal center */
     align-items: center;
-    /* vertical center */
     flex-direction: row;
-    /* column nahi, row sahi rahega */
     gap: 0;
   }
 
@@ -2676,6 +2672,7 @@ input::placeholder {
     margin-left: 0;
     text-align: center;
     padding: 0 15px;
+    
   }
 
   .sectioncont h1 {
@@ -2685,7 +2682,7 @@ input::placeholder {
   }
 
   .sectioncont p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8;
   }
 
@@ -2698,7 +2695,7 @@ input::placeholder {
   }
 
   .sectioncont .wel {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .hdiv {
@@ -2764,7 +2761,7 @@ input::placeholder {
   .apw h1 {
     font-size: 30px;
     line-height: 1.4;
-    width: 80%;
+    width: 90%;
     margin-left: 20px;
     margin-top: 10px;
   }
@@ -2777,11 +2774,12 @@ input::placeholder {
   }
 
   .woh {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8;
     width: 94%;
     margin-left: 20px;
   }
+  
 
   .albtn button {
     height: 40px;
@@ -2817,7 +2815,13 @@ input::placeholder {
   .jkp h3,
   .jkp p {
     text-align: center;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 16px auto;
+  }
+  .jkp h3{
+    font-size: 22px;
+  }
+  .jkp p{
+    font-size: 17px;
   }
 
   .gbutton button {
@@ -2857,7 +2861,7 @@ input::placeholder {
   }
 
   .mdt .edt {
-    font-size: 16px;
+    font-size: 17px;
     width: 90%;
     margin-top: 20px;
     line-height: 1.8;
@@ -2893,6 +2897,7 @@ input::placeholder {
     line-height: 1.6;
     padding: 10px;
     text-align: center;
+    height: 110px;
   }
 
   .drsarah .lead {
@@ -2900,8 +2905,10 @@ input::placeholder {
   }
 
   .drsarah .drnamm {
-    font-size: 18px;
+    font-size: 20px;
   }
+
+
 
   .allnum {
     flex-direction: column;
@@ -2912,7 +2919,7 @@ input::placeholder {
   }
 
   .ten .tent {
-    font-size: 28px;
+    font-size: 33px;
   }
 
   .bkl {
@@ -2960,18 +2967,19 @@ input::placeholder {
 
   .accordion {
     right: 0;
-    font-size: 16px;
     padding: 14px 0;
   }
 
   .question {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .accordion-content {
     right: 0;
-    font-size: 16px;
     line-height: 1.8;
+  }
+  .accordion-content p{
+    font-size: 16px;
   }
 
   .symbol {
@@ -3069,10 +3077,11 @@ input::placeholder {
   }
 
   .testi .trg {
-    font-size: 16px;
+    font-size: 17px;
     width: 90%;
     text-align: justify;
   }
+
 
 
   .footer {
@@ -3088,21 +3097,22 @@ input::placeholder {
     gap: 20px;
   }
 
-  .contact-list b {
-    font-size: 18px;
 
-  }
+
 
   .contact-list li {
-    font-size: 16px;
+    font-size: 17px;
+  }
+  .contact-list b{
+    font-size: 23px;
   }
 
   .abc {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .ppb li {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .footer-logo img {
@@ -3114,11 +3124,10 @@ input::placeholder {
 
   .footer-col {
     margin-top: 30px;
-    font-size: 16px;
   }
 
   .footer-col h4 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .footer-logo {
@@ -3137,6 +3146,7 @@ input::placeholder {
     text-align: justify;
     position: relative;
     top: 10px;
+    font-size: 17px !important;
   }
 
   .footer-social {
@@ -3144,6 +3154,15 @@ input::placeholder {
     gap: 10px;
     position: relative;
     top: 20px;
+  }
+
+  .footer-social i{
+
+    font-size: 21px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+
+
   }
 
   .footer-bottom {
@@ -3237,6 +3256,13 @@ input::placeholder {
     line-height: 1.4;
     text-align: left;
     margin-left: 20px;
+    width: 90%;
+  }
+  .apws p{
+    font-size: 17px;
+  }
+  .contact-wrapper{
+    margin-right: 0px;
   }
 
   .abouts {
@@ -3303,7 +3329,7 @@ input::placeholder {
   }
 
   .hero16-desc {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8;
     margin-bottom: 20px;
   }
@@ -3318,7 +3344,7 @@ input::placeholder {
   }
 
   .feature p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8;
   }
 
@@ -3357,16 +3383,27 @@ input::placeholder {
   }
 
   .ser1 {
-    width: 80%;
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .kk2{
+    padding-bottom: 100px;
+  }
+  .srr{
+    width: 65%;
   }
 
   .ser1 p {
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.8;
+  }
+  .ric{
+    position: relative;
+    left: 0;
   }
 
   .ser1 h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .aks {
@@ -3375,7 +3412,7 @@ input::placeholder {
   }
 
   .ser2 img {
-    width: 90%;
+    width: 88%;
   }
 
   .ser2 {
@@ -3449,14 +3486,14 @@ input::placeholder {
   }
 
   .section h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 8px;
   }
 
   .section p,
   .section li,
   .section div {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8;
   }
 
@@ -3660,14 +3697,19 @@ input::placeholder {
 
   .section img {
     width: 510px;
-    margin-right: 10px;
+    margin-right: -18px;
   }
 
   .sectioncont h1 {
-    font-size: 35px;
+    font-size: 37px;
     line-height: 1.4;
     width: 100%;
   }
+  .sectioncont{
+    position: relative;
+    right: 13px;
+  }
+
 
   .opening-card {
     position: relative;
@@ -3950,6 +3992,10 @@ input::placeholder {
 
   .hjh {
     margin-right: 30px;
+  }
+  .ric{
+    position: relative;
+    left:0;
   }
 
   .contact-info {
