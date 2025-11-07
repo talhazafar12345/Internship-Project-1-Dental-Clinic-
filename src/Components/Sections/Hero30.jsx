@@ -70,7 +70,7 @@ function Hero30() {
               <p className="sched">+1 123 456 789</p>
             </div>
             <div className="time">
-              <p className="cir">
+              <p className="cir ric">
                 <i className="fa-solid fa-message xcv"></i> <span className="hjh"> Send a Messsage</span>
               </p>
               <p className="sched">contact@dentiacare.com</p>

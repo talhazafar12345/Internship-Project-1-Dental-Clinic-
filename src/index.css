@@ -4,7 +4,8 @@
   font-family: 'Poppins', sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
 
@@ -89,7 +90,7 @@ body{
   margin-right: 45px;
   position: relative;
   top: 4px;
-  
+
 }
 
 .flexdiv {
@@ -98,16 +99,16 @@ body{
   gap: 100px;
   background-color: #ebf2fa;
   padding-top: 40px;
-    overflow: hidden;
-    
+  overflow: hidden;
+
 
 }
 
 .sectioncont {
   margin-left: 30px;
   margin-top: 40px;
-  
-  
+
+
 }
 
 .sectioncont h1 {
@@ -227,6 +228,10 @@ body{
   margin-top: 20px;
   font-weight: bold;
 }
+.ric{
+  position: relative;
+  left: 15px;
+}
 
 .facis {
   display: flex;
@@ -292,7 +297,7 @@ body{
 }
 
 .wdiv {
-margin-top: 100px;
+  margin-top: 100px;
 }
 
 .gbutton button {
@@ -524,8 +529,12 @@ margin-top: 100px;
 }
 
 .hero:hover {
-  background-size: 100%;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
   transform: scale(1.02);
+
+
+
 }
 
 .play-btn {
@@ -675,8 +684,8 @@ margin-top: 100px;
   padding: 60px 20px 20px;
   margin-top: auto;
   width: 100%;
-  
-  
+
+
 }
 
 .footer-container {
@@ -1464,11 +1473,14 @@ input::placeholder {
 .abffa {
   margin-top: 120px;
 }
+.abffaa{
+  margin-top: 120px;
+}
 
 
 @media (max-width: 500px) {
 
- 
+
   .navLinks,
   .navButton {
     display: none;
@@ -1537,7 +1549,7 @@ input::placeholder {
     bottom: 10px;
   }
 
-.side-buttons button {
+  .side-buttons button {
     padding: 8px;
     border: none;
     background: #4a7cd2;
@@ -1550,11 +1562,14 @@ input::placeholder {
     margin-top: 20px;
 
     display: flex;
-    justify-content: center; /* horizontal center */
-    align-items: center;     /* vertical center */
-    flex-direction: row;     /* column nahi, row sahi rahega */
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    flex-direction: row;
+    /* column nahi, row sahi rahega */
     gap: 0;
-}
+  }
 
   .overlay {
     position: fixed;
@@ -1975,57 +1990,66 @@ input::placeholder {
   }
 
 
-.footer{
-  width: 100%;
-  text-align: center;
+  .footer {
+    width: 100%;
+    text-align: center;
     box-sizing: border-box;
-        padding: 40px 10px 20px;
+    padding: 40px 10px 20px;
 
 
-}
+  }
+
   .footer-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
   }
-  .contact-list b{
+
+  .contact-list b {
     font-size: 18px;
 
   }
-  .contact-list li{
+
+  .contact-list li {
     font-size: 16px;
   }
-  .abc{
+
+  .abc {
     font-size: 16px;
   }
-  .ppb li{
+
+  .ppb li {
     font-size: 16px;
   }
 
   .footer-logo img {
     position: relative;
     left: 0;
-    margin:0;
+    margin: 0;
 
   }
-  .footer-col{
+
+  .footer-col {
     margin-top: 30px;
     font-size: 16px;
   }
-  .footer-col h4{
+
+  .footer-col h4 {
     font-size: 20px;
   }
 
-  .footer-logo{
+  .footer-logo {
     justify-content: center;
   }
 
-   .ppp, .bbm {
+  .ppp,
+  .bbm {
     left: 0;
     font-size: 14px;
   }
-  .mpp{
+
+  .mpp {
     width: 100%;
     left: 0;
     text-align: justify;
@@ -2051,13 +2075,13 @@ input::placeholder {
     margin-right: 15px;
   }
 
-  
 
-  
- 
+
+
+
   .mainc {
     height: 620px;
-        padding: 40px 10px 20px;
+    padding: 40px 10px 20px;
 
 
 
@@ -2068,7 +2092,7 @@ input::placeholder {
     font-size: 16px;
   }
 
- 
+
 
   .xxx {
     top: 0;
@@ -2078,7 +2102,7 @@ input::placeholder {
     color: #497cd2;
   }
 
-  
+
   .aboup {
     padding-top: 100px;
     background-color: #ecf2fa;
@@ -2502,36 +2526,39 @@ input::placeholder {
     height: 40px;
     margin-bottom: 20px;
   }
+
   .cbutton button {
     position: relative;
     bottom: 20px;
   }
+
   .errors-text {
     text-align: left;
     padding-left: 7px;
     padding-top: 1px;
   }
+
   .errors-texts {
     text-align: center;
     padding-top: 4px;
   }
+
   .abff {
     margin-top: -65px;
-    box-sizing: border-box;
   }
+
   .abfff {
     margin-top: 15px;
-    box-sizing: border-box;
   }
-  .abffa{
+
+  .abffa {
     margin-top: 70px;
   }
-  .abffaa{
+
+  .abffaa {
     margin-top: 10px;
   }
-  .ssa{
-    box-sizing: border-box;
-  }
+
 
 }
 
@@ -2607,7 +2634,7 @@ input::placeholder {
     bottom: 10px;
   }
 
-.side-buttons button {
+  .side-buttons button {
     padding: 8px;
     border: none;
     background: #4a7cd2;
@@ -2620,11 +2647,14 @@ input::placeholder {
     margin-top: 20px;
 
     display: flex;
-    justify-content: center; /* horizontal center */
-    align-items: center;     /* vertical center */
-    flex-direction: row;     /* column nahi, row sahi rahega */
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    flex-direction: row;
+    /* column nahi, row sahi rahega */
     gap: 0;
-}
+  }
 
   .overlay {
     position: fixed;
@@ -3045,54 +3075,63 @@ input::placeholder {
   }
 
 
-.footer{
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-}
+  .footer {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
   .footer-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
   }
-  .contact-list b{
+
+  .contact-list b {
     font-size: 18px;
 
   }
-  .contact-list li{
+
+  .contact-list li {
     font-size: 16px;
   }
-  .abc{
+
+  .abc {
     font-size: 16px;
   }
-  .ppb li{
+
+  .ppb li {
     font-size: 16px;
   }
 
   .footer-logo img {
     position: relative;
     left: 0;
-    margin:0;
+    margin: 0;
 
   }
-  .footer-col{
+
+  .footer-col {
     margin-top: 30px;
     font-size: 16px;
   }
-  .footer-col h4{
+
+  .footer-col h4 {
     font-size: 20px;
   }
 
-  .footer-logo{
+  .footer-logo {
     justify-content: center;
   }
 
-   .ppp, .bbm {
+  .ppp,
+  .bbm {
     left: 0;
     font-size: 14px;
   }
-  .mpp{
+
+  .mpp {
     width: 100%;
     left: 0;
     text-align: justify;
@@ -3118,10 +3157,10 @@ input::placeholder {
     margin-right: 15px;
   }
 
-  
 
-  
- 
+
+
+
   .mainc {
     height: 610px;
   }
@@ -3131,7 +3170,7 @@ input::placeholder {
     font-size: 16px;
   }
 
- 
+
 
   .xxx {
     top: 0;
@@ -3141,7 +3180,7 @@ input::placeholder {
     color: #497cd2;
   }
 
-  
+
   .aboup {
     padding-top: 100px;
     background-color: #ecf2fa;
@@ -3568,22 +3607,27 @@ input::placeholder {
     height: 40px;
     margin-bottom: 20px;
   }
+
   .cbutton button {
     position: relative;
     bottom: 20px;
   }
+
   .errors-text {
     text-align: left;
     padding-left: 7px;
     padding-top: 1px;
   }
+
   .errors-texts {
     text-align: center;
     padding-top: 4px;
   }
+
   .abff {
     margin-top: -60px;
   }
+
   .abfff {
     margin-top: 15px;
   }
@@ -3598,67 +3642,77 @@ input::placeholder {
     padding: 10px 25px;
     padding-top: 50px;
   }
+
   .navImage img {
     width: 120px;
   }
+
   .link {
     font-size: 15px;
   }
+
   .navButton button {
     width: 100px;
     height: 35px;
     font-size: 16px;
-    
+
   }
-  .hero {
-    height: 70vh;
-    top: 50px;
-  }
+
   .section img {
     width: 510px;
     margin-right: 10px;
   }
+
   .sectioncont h1 {
     font-size: 35px;
     line-height: 1.4;
     width: 100%;
   }
+
   .opening-card {
     position: relative;
     top: 30px;
     left: 20px;
     margin-top: 30px;
   }
+
   .sectioncont p {
     font-size: 15px;
     line-height: 1.7;
   }
+
   .sectioncont button {
     width: 150px;
     height: 36px;
     font-size: 15px;
   }
+
   .apw {
     position: relative;
     right: 40px;
   }
+
   .apw h1,
   .apws h1 {
     font-size: 34px;
   }
+
   .woh,
   .wohs {
     font-size: 15px;
     line-height: 1.6;
   }
+
   .faci {
     gap: 10px;
     font-size: 15px;
   }
+
   .facis {
     gap: 40px;
     font-size: 15px;
   }
+
   .df {
     display: flex;
     align-items: center;
@@ -3666,9 +3720,11 @@ input::placeholder {
     font-size: 15px;
     line-height: 1.6;
   }
+
   .wdiv {
-    margin-top: -40px;
+    margin-top: 100px;
   }
+
   .state {
     display: flex;
     align-items: center;
@@ -3676,6 +3732,7 @@ input::placeholder {
     font-size: 15px;
     line-height: 1.6;
   }
+
   .states {
     display: flex;
     align-items: center;
@@ -3683,25 +3740,32 @@ input::placeholder {
     font-size: 15px;
     line-height: 1.6;
   }
+
   .jkp h3 {
     font-size: 18px;
   }
+
   .pkimg img {
     width: 100%;
   }
+
   .hkimg img {
     width: 100%;
   }
+
   .pedd {
     margin-left: 38px;
   }
+
   .profile-right {
     position: relative;
     bottom: 40px;
   }
+
   .profile-card {
     width: 85%;
   }
+
   .section div {
     font-size: 16px;
     display: flex;
@@ -3710,9 +3774,11 @@ input::placeholder {
     font-size: 15px;
     line-height: 1.6;
   }
+
   .section p {
     font-size: 16px;
   }
+
   .allserimg {
     display: flex;
     flex-direction: row;
@@ -3722,28 +3788,41 @@ input::placeholder {
     width: 90%;
     margin: 30px auto;
   }
+
   .ser1 {
     width: 48%;
   }
+
   .ser1 h2 {
     font-size: 20px;
   }
+
   .ser1 p {
     font-size: 16px;
     line-height: 1.8;
   }
+
   .ser2 {
     width: 15%;
     border-radius: 16px;
     display: none;
   }
+
   .general {
     margin-left: 20px;
-    bottom: 190px;
+    bottom: 100px;
   }
+
   .aasarah {
-    margin-top: -90px;
+    margin-top: 10px;
   }
+  
+  .mainc {
+    height: 740px !important;
+    padding: 40px 10px 20px !important;
+    box-sizing: border-box !important;
+  }
+
   .gbutton button,
   .albtn button,
   .albtns button {
@@ -3751,33 +3830,109 @@ input::placeholder {
     height: 36px;
     font-size: 15px;
   }
+.testimonials-slider {
+  scrollbar-color: #4a7cd2 white; 
+  scrollbar-width: thin; 
+}
+
+.testimonials-slider::-webkit-scrollbar {
+  width: 1px; 
+}
+
+.testimonials-slider::-webkit-scrollbar-thumb {
+  background-color: #4a7cd2; 
+  border-radius: 10px;
+}
+
+.testimonials-slider::-webkit-scrollbar-track {
+  background: gray; 
+}
+.testi{
+  margin-top: 100px;
+}
+
+
   .allsarah {
     gap: 10px;
   }
+
   .sarah img {
     width: 240px;
   }
+
   .drsarah {
     width: 200px;
     height: 60px;
     font-size: 16px;
   }
+
   .faq-container {
     flex-direction: column;
     padding: 30px 5%;
     gap: 20px;
   }
+
   .faq-left h1 {
     font-size: 32px;
   }
+  .abffaa{
+    margin-top: 100px;
+  }
+
   .accordion {
     right: 0;
     font-size: 16px;
   }
+
   .accordion-content {
     right: 0;
     font-size: 15px;
   }
+  .aaa .tent{
+  text-align: center;
+  position: relative;
+  right: 20px;
+  
+  }
+  .aaa .happ{
+ text-align: center;
+   position: relative;
+  right: 20px;
+}
+  .bbb .tent{
+  text-align: center;
+  position: relative;
+  right: 7px;
+  
+  }
+  .bbb .happ{
+ text-align: center;
+   position: relative;
+  right: 7px;
+}
+  .jmm .tent{
+  text-align: center;
+  position: relative;
+  left: 10px;
+  
+  }
+  .jmm .happ{
+ text-align: center;
+   position: relative;
+  left: 10px;
+}
+  .bkl .tent{
+  text-align: center;
+  position: relative;
+  left: 15px;
+  
+  }
+  .bkl .happ{
+ text-align: center;
+   position: relative;
+  left: 15px;
+}
+
   .contact-wrapper {
     display: flex;
     justify-content: space-between;
@@ -3792,25 +3947,31 @@ input::placeholder {
     position: relative;
     left: 17px;
   }
+
   .hjh {
     margin-right: 30px;
   }
+
   .contact-info {
     flex: 1;
     min-width: 45%;
     color: #333;
   }
+
   .mtime {
     gap: 60px;
   }
+
   .mtimes {
     gap: 120px;
   }
+
   .contact-info .geti {
     font-size: 15px;
     color: #4b7edb;
     font-weight: 600;
   }
+
   .contact-info h2 {
     font-size: 34px;
     margin-top: 10px;
@@ -3818,12 +3979,14 @@ input::placeholder {
     text-align: left;
     line-height: 1.3;
   }
+
   .contact-info p {
     color: gray;
     line-height: 1.7;
     font-size: 15px;
     margin-top: 15px;
   }
+
   .contact-form {
     max-width: 40%;
     background: #ebf2fa;
@@ -3834,6 +3997,7 @@ input::placeholder {
     position: relative;
     left: -20px;
   }
+
   .contact-form h3 {
     margin-bottom: 20px;
     color: #10244b;
@@ -3841,56 +4005,67 @@ input::placeholder {
     text-align: center;
     padding-top: 10px;
   }
+
   .contact-field textarea {
     min-height: 90px;
   }
-  .testimonial-card {
-    flex: 0 0 260px;
-  }
-  .testimonial-card p {
-    font-size: 14px;
-  }
+
   .footer {
     padding: 40px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
   }
+
   .footer h4 {
     font-size: 17px;
   }
+
   .footer p,
   .footer-links a {
     font-size: 14px;
   }
+
   .footer-logo img {
     width: 120px;
   }
+
   .uinp {
     width: 480px;
     padding: 30px 0;
   }
+
   .dddinp input {
     width: 400px;
   }
+
   .cbutton button {
     width: 150px;
     height: 36px;
   }
+
   .dimg img {
     width: 23%;
   }
+
   .aimg img {
     width: 70%;
     position: relative;
     left: 30px;
   }
+
   .kimg img {
     width: 78%;
   }
+
   .abff {
     margin-top: -40px;
   }
+
   .abfff {
     margin-top: 90px;
   }
+
   .abffa {
     margin-top: 90px;
   }

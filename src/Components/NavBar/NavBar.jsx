@@ -18,10 +18,8 @@ function NavBar() {
         <Hero9 />
         <Hero10 />
         <Hero11 />
-        <div className="ssa">
         <Footer />
 
-        </div>
     </div>
   )
 }
