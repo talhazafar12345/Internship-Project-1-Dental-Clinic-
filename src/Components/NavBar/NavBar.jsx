@@ -11,14 +11,17 @@ function NavBar() {
   return (
     <div>
         <Hero1 />
-        {/* <Hero2 />
+         <Hero2 /> 
         <Hero5 />
         <Hero6 />
         <Hero7 />
         <Hero9 />
         <Hero10 />
         <Hero11 />
-        <Footer /> */}
+        <div className="ssa">
+        <Footer />
+
+        </div>
     </div>
   )
 }
