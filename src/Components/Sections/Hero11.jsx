@@ -7,10 +7,7 @@ function Hero11() {
         <h2>Our Happy Customers</h2>
         <p className="trg">Join thousands of happy patients who trust us for gentle, expert care and beautiful smiles. Your perfect dental experience starts here!</p>
       </div>
-
       <Hero12 />
-
-    
     </div>
   )
 }

@@ -1,8 +1,4 @@
 
-
-
-
-
 function Hero21() {
   return (
     <div className="aks">

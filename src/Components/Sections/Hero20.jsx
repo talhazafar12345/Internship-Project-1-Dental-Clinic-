@@ -1,7 +1,6 @@
 import Hero21 from "./Hero21"
 function Hero20() {
   return (
-    
  <div className="heig"  >
   <div className="allserimg">
         <div className="ser1">

@@ -16,8 +16,6 @@ function About() {
         <Hero15 />
         <Hero16 />
         <Hero18 />
-
-      
     </div>
   )
 }

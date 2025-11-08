@@ -1,5 +1,4 @@
 
-
 function Hero23() {
     return (
         <div className="kks" >
@@ -37,5 +36,4 @@ function Hero23() {
         </div>
     )
 }
-
 export default Hero23

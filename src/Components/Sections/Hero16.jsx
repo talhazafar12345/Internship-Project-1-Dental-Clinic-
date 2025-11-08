@@ -2,10 +2,6 @@ import Hero22 from "./Hero22"
 import Hero23 from "./Hero23"
 import Hero24 from "./Hero24"
 import Hero25 from "./Hero25"
-
-
-
-
 function Hero16() {
     return (
         <div>

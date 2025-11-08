@@ -1,9 +1,4 @@
 
-
-
-
-
-
 import Hero1 from "../Sections/Hero1"
 import Hero29 from "../Sections/Hero29"
 import Hero30 from "../Sections/Hero30"
@@ -17,7 +12,6 @@ function Appointment() {
       <Hero1 />
       <Hero29 />
       <Hero30 />
-
     </div>
   )
 }
