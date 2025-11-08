@@ -6,7 +6,6 @@ import {useEffect} from "react"
 import Hero18 from "../Sections/Hero18"
 function About() {
     useEffect(()=>{
-
         window.scrollTo(0,0)
     })
   return (
