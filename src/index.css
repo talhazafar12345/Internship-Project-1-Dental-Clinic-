@@ -604,7 +604,7 @@ body {
   scroll-snap-type: x mandatory;
   padding-bottom: 15px;
   scrollbar-color: #007bff #e0e0e0;
-  scrollbar-width: thick;
+  scrollbar-width: thin;
 }
 
 .testimonial-card {
@@ -3818,7 +3818,7 @@ input::placeholder {
   }
 
   .testimonials-slider {
-    scrollbar-color: #4a7cd2 white;
+    scrollbar-color: #4a7cd2;
     scrollbar-width: thin;
   }
 
@@ -3832,7 +3832,7 @@ input::placeholder {
   }
 
   .testimonials-slider::-webkit-scrollbar-track {
-    background: gray;
+    background: white;
   }
 
   .testi {
