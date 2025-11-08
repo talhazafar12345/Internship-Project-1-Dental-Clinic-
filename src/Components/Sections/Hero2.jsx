@@ -19,8 +19,6 @@ function Hero2() {
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/c1.png" alt="" />
                 </div>
             </div>
-            
-            
         </div>
     )
 }

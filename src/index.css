@@ -1,3 +1,6 @@
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +11,6 @@
 body {
   overflow-x: hidden;
 }
-
-
 
 .navBar {
   display: flex;
@@ -29,11 +30,7 @@ body {
   gap: 25px;
 }
 
-.reveal {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 0.8s ease;
-}
+
 
 .link {
   text-decoration: none;
@@ -90,7 +87,6 @@ body {
   margin-right: 45px;
   position: relative;
   top: 4px;
-
 }
 
 .flexdiv {
@@ -100,15 +96,11 @@ body {
   background-color: #ebf2fa;
   padding-top: 40px;
   overflow: hidden;
-
-
 }
 
 .sectioncont {
   margin-left: 43px;
   margin-top: 40px;
-
-
 }
 
 .sectioncont h1 {
@@ -150,16 +142,7 @@ body {
   font-weight: bold;
 }
 
-
-
-
-
-
-
-
-.hr {
-  margin-top: 30px;
-}
+ 
 
 .stars i {
   margin-right: 6px;
@@ -228,7 +211,8 @@ body {
   margin-top: 20px;
   font-weight: bold;
 }
-.ric{
+
+.ric {
   position: relative;
   left: 15px;
 }
@@ -455,8 +439,8 @@ body {
 }
 
 .faq-left p {
-  color: #0056b3;
-  font-weight: 500;
+  color: #4a7cd2;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -532,9 +516,6 @@ body {
   border-radius: 30px;
   transition: transform 0.3s ease;
   transform: scale(1.02);
-
-
-
 }
 
 .play-btn {
@@ -591,8 +572,7 @@ body {
 
 .testi .rtg {
   color: #4a7cd2;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: bold;
 }
 
 .testi .trg {
@@ -684,8 +664,6 @@ body {
   padding: 60px 20px 20px;
   margin-top: auto;
   width: 100%;
-
-
 }
 
 .footer-container {
@@ -1382,6 +1360,11 @@ hr {
   font-size: 16px;
 }
 
+.dsh {
+  position: relative;
+  left: 15px;
+}
+
 .mtime {
   display: flex;
   gap: 120px;
@@ -1473,13 +1456,12 @@ input::placeholder {
 .abffa {
   margin-top: 120px;
 }
-.abffaa{
+
+.abffaa {
   margin-top: 120px;
 }
 
-
 @media (max-width: 500px) {
-
 
   .navLinks,
   .navButton {
@@ -1534,10 +1516,7 @@ input::placeholder {
 
   .side-link:hover {
     color: #4a7cd2;
-
   }
-
-
 
   .qlin {
     text-decoration: none;
@@ -1560,14 +1539,10 @@ input::placeholder {
     font-size: 18px;
     width: 90%;
     margin-top: 20px;
-
     display: flex;
     justify-content: center;
-    /* horizontal center */
     align-items: center;
-    /* vertical center */
     flex-direction: row;
-    /* column nahi, row sahi rahega */
     gap: 0;
   }
 
@@ -1628,9 +1603,6 @@ input::placeholder {
     display: none;
   }
 
-  .hr {
-    display: none;
-  }
 
   .grt {
     font-size: 14px;
@@ -1688,7 +1660,7 @@ input::placeholder {
     font-size: 16px;
     position: relative;
     bottom: 10px;
-    margin-left: 20px;
+    margin-left: 26px;
   }
 
   .woh {
@@ -1726,7 +1698,7 @@ input::placeholder {
     text-align: center;
     gap: 60px;
     padding: 30px 10px;
-    margin-top: 130px;
+    margin-top: 100px;
   }
 
   .jkp h3,
@@ -1750,13 +1722,12 @@ input::placeholder {
   }
 
   .wdiv {
-    position: relative;
-    top: 20px;
+margin-top: 70px;
   }
 
   .aasarah {
     padding-top: 60px;
-    margin-top: 60px;
+    margin-top: 35px;
   }
 
   .mdt h1 {
@@ -1769,6 +1740,7 @@ input::placeholder {
   .mdtt {
     font-size: 16px;
     margin-bottom: 10px;
+    font-weight: bold !important;
   }
 
   .mdt .edt {
@@ -1860,12 +1832,15 @@ input::placeholder {
   }
 
   .faq-left p {
+    color: #4a7cd2;
     font-size: 16px;
     text-align: center;
+    font-weight: bold;
   }
 
   .faq-left {
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .faq-right {
@@ -1907,18 +1882,23 @@ input::placeholder {
     border-width: 2px;
   }
 
-  .play-btn::before {
+  /* .play-btn::before {
     border-left: 14px solid white;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     transform: translateX(3px);
-  }
+  } */
 
   .closess-btn {
     top: 20px;
     right: 25px;
     font-size: 1.5rem;
     color: white;
+  }
+
+  .testi {
+    position: relative;
+    top: 30px;
   }
 
   .video-popup video,
@@ -1966,7 +1946,8 @@ input::placeholder {
     line-height: 1.8;
     margin-bottom: 8px;
   }
-  .ric{
+
+  .ric {
     position: relative;
     left: 0;
   }
@@ -1981,6 +1962,8 @@ input::placeholder {
 
   .testi h2 {
     font-size: 30px;
+    position: relative;
+    bottom: 10px;
   }
 
   .testi .rtg {
@@ -1991,16 +1974,15 @@ input::placeholder {
     font-size: 16px;
     width: 90%;
     text-align: justify;
+    position: relative;
+    bottom: 15px;
   }
-
 
   .footer {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
     padding: 40px 10px 20px;
-
-
   }
 
   .footer-container {
@@ -2012,7 +1994,6 @@ input::placeholder {
 
   .contact-list b {
     font-size: 18px;
-
   }
 
   .contact-list li {
@@ -2031,7 +2012,6 @@ input::placeholder {
     position: relative;
     left: 0;
     margin: 0;
-
   }
 
   .footer-col {
@@ -2079,24 +2059,15 @@ input::placeholder {
     margin-right: 15px;
   }
 
-
-
-
-
   .mainc {
-    height: 620px;
-    padding: 40px 10px 20px;
-
-
-
+    height: 630px;
+    padding: 40px 10px 20px
   }
 
   .ppb {
     line-height: 2;
     font-size: 16px;
   }
-
-
 
   .xxx {
     top: 0;
@@ -2105,7 +2076,6 @@ input::placeholder {
   .dot {
     color: #497cd2;
   }
-
 
   .aboup {
     padding-top: 100px;
@@ -2169,7 +2139,7 @@ input::placeholder {
     font-size: 16px;
     text-align: left;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 26px;
   }
 
   .albtns {
@@ -2220,6 +2190,7 @@ input::placeholder {
   .hero16-subtitle {
     font-size: 16px;
     margin-bottom: 10px;
+    margin-left: 3px;
   }
 
   .hero16-title {
@@ -2279,7 +2250,6 @@ input::placeholder {
   .allserimg {
     flex-direction: column;
     align-items: center;
-
   }
 
   .ser1 {
@@ -2352,6 +2322,12 @@ input::placeholder {
     bottom: 0;
   }
 
+  .dsh {
+    position: relative;
+    left: 0;
+
+  }
+
   .profile-right {
     width: 100%;
     padding: 0 10px;
@@ -2403,7 +2379,6 @@ input::placeholder {
   .card-number {
     display: none;
   }
-
 
   .contact-wrapper {
     flex-direction: column;
@@ -2502,9 +2477,9 @@ input::placeholder {
     font-size: 25px;
   }
 
-  .vvb {
+  /* .vvb {
     margin-top: 60px;
-  }
+  } */
 
   .doct h1 {
     margin-top: 80px;
@@ -2566,23 +2541,22 @@ input::placeholder {
 
 }
 
-
-
 @media screen and (min-width: 501px) and (max-width: 580px) {
-
-
   .navLinks,
   .navButton {
     display: none;
   }
+
   .hamburger {
     display: block;
     font-size: 28px;
     cursor: pointer;
   }
+
   .navBar {
     padding: 15px 20px;
   }
+
   .sidebar {
     position: fixed;
     top: 0;
@@ -2596,9 +2570,11 @@ input::placeholder {
     transition: left 0.35s ease;
     z-index: 200;
   }
+
   .sidebar.open {
     left: 0;
   }
+
   .close-btn {
     font-size: 28px;
     align-self: flex-end;
@@ -2631,8 +2607,6 @@ input::placeholder {
     position: relative;
     bottom: 10px;
   }
-
-
 
   .side-buttons button {
     padding: 8px;
@@ -2672,7 +2646,6 @@ input::placeholder {
     margin-left: 0;
     text-align: center;
     padding: 0 15px;
-    
   }
 
   .sectioncont h1 {
@@ -2710,9 +2683,7 @@ input::placeholder {
     display: none;
   }
 
-  .hr {
-    display: none;
-  }
+
 
   .grt {
     font-size: 14px;
@@ -2779,7 +2750,7 @@ input::placeholder {
     width: 94%;
     margin-left: 20px;
   }
-  
+
 
   .albtn button {
     height: 40px;
@@ -2817,10 +2788,12 @@ input::placeholder {
     text-align: center;
     margin: 0 auto 16px auto;
   }
-  .jkp h3{
+
+  .jkp h3 {
     font-size: 22px;
   }
-  .jkp p{
+
+  .jkp p {
     font-size: 17px;
   }
 
@@ -2908,8 +2881,6 @@ input::placeholder {
     font-size: 20px;
   }
 
-
-
   .allnum {
     flex-direction: column;
     align-items: center;
@@ -2925,6 +2896,11 @@ input::placeholder {
   .bkl {
     position: relative;
     right: 0;
+  }
+
+  .dsh {
+    position: relative;
+    left: 0;
   }
 
   .tena,
@@ -2978,7 +2954,8 @@ input::placeholder {
     right: 0;
     line-height: 1.8;
   }
-  .accordion-content p{
+
+  .accordion-content p {
     font-size: 16px;
   }
 
@@ -3000,12 +2977,12 @@ input::placeholder {
     border-width: 2px;
   }
 
-  .play-btn::before {
+  /* .play-btn::before {
     border-left: 14px solid white;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     transform: translateX(3px);
-  }
+  } */
 
   .closess-btn {
     top: 20px;
@@ -3082,8 +3059,6 @@ input::placeholder {
     text-align: justify;
   }
 
-
-
   .footer {
     width: 100%;
     text-align: center;
@@ -3097,13 +3072,11 @@ input::placeholder {
     gap: 20px;
   }
 
-
-
-
   .contact-list li {
     font-size: 17px;
   }
-  .contact-list b{
+
+  .contact-list b {
     font-size: 23px;
   }
 
@@ -3119,7 +3092,6 @@ input::placeholder {
     position: relative;
     left: 0;
     margin: 0;
-
   }
 
   .footer-col {
@@ -3156,13 +3128,10 @@ input::placeholder {
     top: 20px;
   }
 
-  .footer-social i{
-
+  .footer-social i {
     font-size: 21px;
     margin-top: 30px;
     padding-bottom: 20px;
-
-
   }
 
   .footer-bottom {
@@ -3176,10 +3145,6 @@ input::placeholder {
     margin-right: 15px;
   }
 
-
-
-
-
   .mainc {
     height: 610px;
   }
@@ -3189,8 +3154,6 @@ input::placeholder {
     font-size: 16px;
   }
 
-
-
   .xxx {
     top: 0;
   }
@@ -3198,7 +3161,6 @@ input::placeholder {
   .dot {
     color: #497cd2;
   }
-
 
   .aboup {
     padding-top: 100px;
@@ -3258,10 +3220,12 @@ input::placeholder {
     margin-left: 20px;
     width: 90%;
   }
-  .apws p{
+
+  .apws p {
     font-size: 17px;
   }
-  .contact-wrapper{
+
+  .contact-wrapper {
     margin-right: 0px;
   }
 
@@ -3379,17 +3343,18 @@ input::placeholder {
   .allserimg {
     flex-direction: column;
     align-items: center;
-
   }
 
   .ser1 {
     width: 50%;
     padding-bottom: 30px;
   }
-  .kk2{
+
+  .kk2 {
     padding-bottom: 100px;
   }
-  .srr{
+
+  .srr {
     width: 65%;
   }
 
@@ -3397,7 +3362,8 @@ input::placeholder {
     font-size: 19px;
     line-height: 1.8;
   }
-  .ric{
+
+  .ric {
     position: relative;
     left: 0;
   }
@@ -3661,7 +3627,7 @@ input::placeholder {
     padding-top: 4px;
   }
 
-.abff {
+  .abff {
     margin-top: -65px;
   }
 
@@ -3676,9 +3642,6 @@ input::placeholder {
   .abffaa {
     margin-top: 10px;
   }
-
-
-
 }
 
 
@@ -3701,7 +3664,6 @@ input::placeholder {
     width: 100px;
     height: 35px;
     font-size: 16px;
-
   }
 
   .section img {
@@ -3714,11 +3676,11 @@ input::placeholder {
     line-height: 1.4;
     width: 100%;
   }
-  .sectioncont{
+
+  .sectioncont {
     position: relative;
     right: 13px;
   }
-
 
   .opening-card {
     position: relative;
@@ -3757,6 +3719,11 @@ input::placeholder {
   .faci {
     gap: 10px;
     font-size: 15px;
+  }
+
+  .dsh {
+    position: relative;
+    left: 0;
   }
 
   .facis {
@@ -3867,7 +3834,7 @@ input::placeholder {
   .aasarah {
     margin-top: 10px;
   }
-  
+
   .mainc {
     height: 740px !important;
     padding: 40px 10px 20px !important;
@@ -3881,27 +3848,28 @@ input::placeholder {
     height: 36px;
     font-size: 15px;
   }
-.testimonials-slider {
-  scrollbar-color: #4a7cd2 white; 
-  scrollbar-width: thin; 
-}
 
-.testimonials-slider::-webkit-scrollbar {
-  width: 1px; 
-}
+  .testimonials-slider {
+    scrollbar-color: #4a7cd2 white;
+    scrollbar-width: thin;
+  }
 
-.testimonials-slider::-webkit-scrollbar-thumb {
-  background-color: #4a7cd2; 
-  border-radius: 10px;
-}
+  .testimonials-slider::-webkit-scrollbar {
+    width: 1px;
+  }
 
-.testimonials-slider::-webkit-scrollbar-track {
-  background: gray; 
-}
-.testi{
-  margin-top: 100px;
-}
+  .testimonials-slider::-webkit-scrollbar-thumb {
+    background-color: #4a7cd2;
+    border-radius: 10px;
+  }
 
+  .testimonials-slider::-webkit-scrollbar-track {
+    background: gray;
+  }
+
+  .testi {
+    margin-top: 100px;
+  }
 
   .allsarah {
     gap: 10px;
@@ -3926,7 +3894,8 @@ input::placeholder {
   .faq-left h1 {
     font-size: 32px;
   }
-  .abffaa{
+
+  .abffaa {
     margin-top: 100px;
   }
 
@@ -3939,50 +3908,54 @@ input::placeholder {
     right: 0;
     font-size: 15px;
   }
-  .aaa .tent{
-  text-align: center;
-  position: relative;
-  right: 20px;
-  
+
+  .aaa .tent {
+    text-align: center;
+    position: relative;
+    right: 20px;
   }
-  .aaa .happ{
- text-align: center;
-   position: relative;
-  right: 20px;
-}
-  .bbb .tent{
-  text-align: center;
-  position: relative;
-  right: 7px;
-  
+
+  .aaa .happ {
+    text-align: center;
+    position: relative;
+    right: 20px;
   }
-  .bbb .happ{
- text-align: center;
-   position: relative;
-  right: 7px;
-}
-  .jmm .tent{
-  text-align: center;
-  position: relative;
-  left: 10px;
-  
+
+  .bbb .tent {
+    text-align: center;
+    position: relative;
+    right: 7px;
   }
-  .jmm .happ{
- text-align: center;
-   position: relative;
-  left: 10px;
-}
-  .bkl .tent{
-  text-align: center;
-  position: relative;
-  left: 15px;
-  
+
+  .bbb .happ {
+    text-align: center;
+    position: relative;
+    right: 7px;
   }
-  .bkl .happ{
- text-align: center;
-   position: relative;
-  left: 15px;
-}
+
+  .jmm .tent {
+    text-align: center;
+    position: relative;
+    left: 10px;
+  }
+
+  .jmm .happ {
+    text-align: center;
+    position: relative;
+    left: 10px;
+  }
+
+  .bkl .tent {
+    text-align: center;
+    position: relative;
+    left: 15px;
+  }
+
+  .bkl .happ {
+    text-align: center;
+    position: relative;
+    left: 15px;
+  }
 
   .contact-wrapper {
     display: flex;
@@ -3998,19 +3971,19 @@ input::placeholder {
     position: relative;
     left: 17px;
   }
-  .contact-info{
+
+  .contact-info {
     margin-left: -8px;
   }
 
   .hjh {
     margin-right: 30px;
   }
-  .ric{
+
+  .ric {
     position: relative;
-    left:3px;
+    left: 3px;
   }
-
-
 
   .mtime {
     gap: 60px;

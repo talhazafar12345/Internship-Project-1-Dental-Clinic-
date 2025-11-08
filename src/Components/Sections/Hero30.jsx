@@ -73,7 +73,7 @@ function Hero30() {
               <p className="cir ric">
                 <i className="fa-solid fa-message xcv"></i> <span className="hjh"> Send a Messsage</span>
               </p>
-              <p className="sched">contact@dentiacare.com</p>
+              <p className="sched dsh">contact@dentiacare.com</p>
             </div>
           </div>
         </div>
