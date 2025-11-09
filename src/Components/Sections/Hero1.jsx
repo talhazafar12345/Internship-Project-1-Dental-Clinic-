@@ -29,7 +29,7 @@ function Hero1() {
         </div>
       </div>
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
-        <div className="navImage">
+        <div className="navImage navImages">
           <img
             src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/logo-black.png"
             alt="Logo"

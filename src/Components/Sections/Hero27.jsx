@@ -29,7 +29,7 @@ function Hero27() {
                          <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-3-70x70.png" alt="" />
                          <p className="dolar">$ 17.00 per visit</p>
                          <h2>Pediatric Dentistry</h2>
-                         <p>Gentle, caring dental care for kids to keep their smiles healthy and happy life.</p>
+                         <p>Gentle, caring dental care for kids to keep their smiles healthy and happy life of child.</p>
                          <button>Read More</button>
                     </div>
                </div>

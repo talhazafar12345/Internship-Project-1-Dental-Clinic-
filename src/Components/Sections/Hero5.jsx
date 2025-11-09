@@ -32,7 +32,7 @@ function Hero5() {
                             <i class="fa-solid fa-check"></i>
                             <span> Gentle Care for Kids</span>
                         </div>
-                        <div className="states">
+                        <div className="states tate">
                             <i class="fa-solid fa-check"></i>
                             <span> Flexible Appointment</span>
                         </div>
