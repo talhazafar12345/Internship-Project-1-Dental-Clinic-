@@ -14,6 +14,7 @@ function Hero7() {
                         <p className="drnamm">Dr. Sarah Bennet</p>
                         <p className="lead">Lead Dentist</p>
                     </div>
+                    
                 </div>
                 <div className="sarah">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/dentists-img2.jpg" alt="" />

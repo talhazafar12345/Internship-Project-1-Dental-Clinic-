@@ -1,3 +1,5 @@
+
+import axios from "axios";
 import { useState } from "react";
 import Footer from "../Footer/Footer";
 function Hero30() {
@@ -23,9 +25,9 @@ function Hero30() {
       newErrors.email = "Please enter a valid Email";
     if (!formData.phone) newErrors.phone = "Please enter your Phone";
     if (!formData.message) newErrors.message = "Please enter your Message";
-    return newErrors;
+    return newErrors
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
@@ -33,9 +35,16 @@ function Hero30() {
       setFormError("⚠️ One or more fields have an error. Please check and try again.");
       return;
     }
-    alert("Message sent successfully ✅");
-    setFormData({ name: "", email: "", phone: "", message: "" });
-    setFormError("");
+    const response = await axios.post("http://localhost:5000/submit-form",{formData})
+    console.log(response)
+    alert("Message sent successfully")
+
+  setFormData({
+    name:"",
+    email:"",
+  phone:"",
+  message:"",
+  })
   };
   return (
     <div>
