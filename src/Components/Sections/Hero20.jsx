@@ -15,13 +15,18 @@ function Hero20() {
             <p>Enhance your smile’s beauty with whitening, veneers, and more  for dental protection.</p>
              <button>Read More</button>
         </div>
-        <div className="ser2">
-            <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/exceptional1.jpg" alt="" />
-        </div>
+        
         <div className="ser1">
             <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-3-70x70.png" alt="" />
             <h2>Pediatric Dentistry</h2>
             <p>Gentle and fun dental care for kids to grow healthy, happy smiles and many more.</p>
+             <button>Read More</button>
+        </div>
+
+        <div className="ser1">
+            <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-2-70x70.png" alt="" />
+            <h2>Endontics</h2>
+            <p>An endodontist treats the inside of the tooth, including the pulp and nerves.</p>
              <button>Read More</button>
         </div>
          </div>

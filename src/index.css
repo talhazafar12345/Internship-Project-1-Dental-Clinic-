@@ -1468,7 +1468,7 @@ input::placeholder {
 }
 
 .aks {
-  margin-top: -80px;
+  margin-top: -78px;
 }
 
 
@@ -2283,10 +2283,15 @@ input::placeholder {
   .allserimg {
     flex-direction: column;
     align-items: center;
+    gap: 30px;
   }
 
   .ser1 {
     width: 80%;
+  }
+
+  .aks{
+    margin-top: -70px;
   }
 
   .ser1 p {
@@ -2298,15 +2303,12 @@ input::placeholder {
     font-size: 20px;
   }
 
-  .aks {
-    position: relative;
-    bottom: 55px;
-
-  }
 
   .ser2 img {
     width: 90%;
   }
+
+  
 
   .ser2 {
     text-align: center;
@@ -2560,7 +2562,7 @@ input::placeholder {
   }
 
   .abfff {
-    margin-top: 15px;
+    margin-top: 60px;
   }
 
   .abffa {
@@ -2568,7 +2570,7 @@ input::placeholder {
   }
 
   .abffaa {
-    margin-top: 10px;
+    margin-top: 80px;
   }
 }
 
@@ -3408,6 +3410,7 @@ input::placeholder {
     width: 90%;
   }
 
+  
   .ser2 {
     text-align: center;
   }
