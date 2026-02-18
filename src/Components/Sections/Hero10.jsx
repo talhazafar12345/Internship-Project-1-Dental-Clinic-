@@ -18,7 +18,7 @@ function Hero10() {
                     <span className="closess-btn" onClick={closePopup}>
                         ×
                     </span>
-                    <iframe onClick={(e) => e.stopPropagation()} width="560" height="315" src="https://www.youtube.com/embed/SF4aHwxHtZ0?si=Y-BjHZQvbN1FQGQd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe onClick={(e) => e.stopPropagation()} width="500" height="315" src="https://www.youtube.com/embed/SF4aHwxHtZ0?si=Y-BjHZQvbN1FQGQd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             )}
         </>
