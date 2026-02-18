@@ -385,9 +385,9 @@ body {
 
 
 
- 
 
- .tena,
+
+.tena,
 .tens {
   font-size: 16px;
   color: #10244b;
@@ -399,18 +399,18 @@ body {
   color: #10244b;
 }
 
-.aaa{
+.aaa {
   position: relative;
   left: 20px;
 }
 
-.bbb{
+.bbb {
   position: relative;
   left: 20px;
 
 }
 
-.jmm{
+.jmm {
   position: relative;
   left: 20px;
 
@@ -419,7 +419,7 @@ body {
 .ten .happ {
   font-size: 16px;
   color: gray;
-} 
+}
 
 .ver {
   margin-top: 50px;
@@ -598,11 +598,11 @@ body {
 
 .testimonials-section {
   text-align: center;
-  padding: 60px 20px;
   border-radius: 15px;
-  margin: 60px auto;
+  margin: 100px auto;
   position: relative;
   bottom: 60px;
+  width: 1230px;
 }
 
 .testimonials-section h2 {
@@ -614,12 +614,11 @@ body {
 .testimonials-slider {
   display: flex;
   overflow-x: auto;
-  gap: 20px;
+  gap: 10px;
   scroll-snap-type: x mandatory;
   padding-bottom: 15px;
   scrollbar-color: #007bff #e0e0e0;
   scrollbar-width: thin;
-  margin-left: 30px;
 }
 
 
@@ -628,7 +627,7 @@ body {
   background: white;
   border-radius: 15px;
   padding: 20px 20px;
-  width:10px !important;
+
 }
 
 .testimonial-card img {
@@ -1468,7 +1467,7 @@ input::placeholder {
   margin-top: 120px;
 }
 
-.aks{
+.aks {
   margin-top: -80px;
 }
 
@@ -1484,10 +1483,12 @@ input::placeholder {
     display: block;
     font-size: 28px;
     cursor: pointer;
+    margin-right: 30px;
   }
 
   .navBar {
     padding: 15px 20px;
+    height: 60px;
   }
 
   .sidebar {
@@ -1506,6 +1507,17 @@ input::placeholder {
 
   .sidebar.open {
     left: 0;
+  }
+
+  .navImage img {
+    position: relative;
+    right: 10px;
+    width: 70%;
+
+  }
+
+  .navImages img{
+    width: 35%;
   }
 
   .close-btn {
@@ -1583,12 +1595,17 @@ input::placeholder {
   .sectioncont h1 {
     font-size: 34px;
     line-height: 1.4;
-    width: 100%;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .sectioncont p {
     font-size: 16px;
     line-height: 1.8;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .sectioncont button {
@@ -1625,7 +1642,7 @@ input::placeholder {
   }
 
   .section img {
-    width: 90%;
+    width: 86%;
     margin: 0 auto;
     display: block;
     border-radius: 10px;
@@ -1638,6 +1655,7 @@ input::placeholder {
     margin: 10px auto;
     display: block;
     border-radius: 20px;
+    margin-right: 25px;
   }
 
   .kimg img {
@@ -1645,12 +1663,15 @@ input::placeholder {
     border-radius: 20px;
     position: relative;
     top: -4px;
+    right: 10px;
+
   }
 
   .aaimg {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+
   }
 
   .apw {
@@ -1708,8 +1729,8 @@ input::placeholder {
     justify-content: center;
     text-align: center;
     gap: 60px;
-    padding: 30px 10px;
     margin-top: 100px;
+    margin-right: 20px;
   }
 
   .jkp h3,
@@ -1770,7 +1791,7 @@ input::placeholder {
 
   .sarah {
     position: relative;
-    width: 90%;
+    width: 85%;
   }
 
   .sarah img {
@@ -1791,6 +1812,13 @@ input::placeholder {
     line-height: 1.6;
     padding: 10px;
     text-align: center;
+  }
+
+  .aaa,
+  .bbb,
+  .jmm {
+    position: relative;
+    left: 0;
   }
 
   .drsarah .lead {
@@ -1881,7 +1909,7 @@ input::placeholder {
 
   .hero {
     height: 80vh;
-    width: 90%;
+    width: 88%;
     margin-top: -45px;
     background-position: center;
     background-size: cover !important;
@@ -1918,9 +1946,9 @@ input::placeholder {
   }
 
   .testimonials-section {
-    padding: 40px 10px;
-    margin: 40px auto;
     bottom: 30px;
+    width: 90%;
+    margin-top: 80px;
   }
 
   .testimonials-section h2 {
@@ -1934,7 +1962,7 @@ input::placeholder {
   }
 
   .testimonial-card {
-    flex: 0 0 85%;
+    flex: 0 0 75%;
     padding: 20px 15px;
     border-radius: 12px;
   }
@@ -2038,7 +2066,8 @@ input::placeholder {
   }
 
   .mpp {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     left: 0;
     text-align: justify;
     position: relative;
@@ -2400,10 +2429,10 @@ input::placeholder {
   }
 
   .contact-info h2 {
-    font-size: 29px;
+    font-size: 25px;
     line-height: 1.4;
     text-align: left;
-    width: 100%;
+    width:90%;
     max-width: 100%;
   }
 
@@ -2411,6 +2440,7 @@ input::placeholder {
     font-size: 16px;
     line-height: 1.8;
     text-align: justify;
+    width: 85%;
   }
 
   .mtime,
@@ -2430,11 +2460,13 @@ input::placeholder {
 
   .contact-form {
     width: 75%;
-    margin-left: auto;
+    margin-left: 0;
     border-radius: 20px;
     position: relative;
     left: 0;
     margin-top: 40px;
+    margin-right:25px;
+
   }
 
   .contact-form h3 {
@@ -6468,12 +6500,12 @@ input::placeholder {
     width: 100%;
   }
 
-  .about{
+  .about {
 
     font-size: 18px;
   }
 
-  .abouts{
+  .abouts {
     font-size: 18px;
   }
 
@@ -6497,7 +6529,7 @@ input::placeholder {
   .sectioncont button {
     width: 180px;
     height: 50px;
-    font-size:17px;
+    font-size: 17px;
   }
 
   .apw {
@@ -6511,13 +6543,12 @@ input::placeholder {
     width: 90%;
   }
 
-  .woh
-  {
+  .woh {
     font-size: 17px;
     line-height: 1.6;
   }
 
-  .wohs{
+  .wohs {
     font-size: 18px;
   }
 
@@ -6544,15 +6575,15 @@ input::placeholder {
     line-height: 1.6;
   }
 
-  .sectioncont .wel{
+  .sectioncont .wel {
     font-size: 18px;
   }
 
-  .mdt{
+  .mdt {
     font-size: 18px;
   }
 
-  .mdt .edt{
+  .mdt .edt {
     font-size: 17px;
   }
 
@@ -6603,24 +6634,24 @@ input::placeholder {
     bottom: 40px;
   }
 
-  .profile-right h2{
+  .profile-right h2 {
 
     font-size: 22px;
   }
 
-  .role{
+  .role {
     font-size: 18px;
   }
 
-  .section h3{
+  .section h3 {
     font-size: 20px;
   }
 
-  .section div{
+  .section div {
     font-size: 18px !important;
   }
 
-  .section p{
+  .section p {
     font-size: 18px !important;
   }
 
@@ -6628,15 +6659,15 @@ input::placeholder {
     width: 85%;
   }
 
-  .question{
+  .question {
     font-size: 20px;
   }
 
-  .accordion-content p{
+  .accordion-content p {
     font-size: 20px;
   }
 
-  .mdt h1{
+  .mdt h1 {
 
     font-size: 45px !important;
   }
@@ -6683,18 +6714,18 @@ input::placeholder {
     display: none;
   }
 
-  .sarah img{
+  .sarah img {
 
     height: 350px;
     width: 100% !important;
   }
 
-    .drsarah{
+  .drsarah {
     width: 85% !important;
-   
+
   }
 
-  .drnamm{
+  .drnamm {
     font-size: 20px;
   }
 
@@ -6703,11 +6734,11 @@ input::placeholder {
     bottom: 60px;
   }
 
-  .hlinko{
+  .hlinko {
     font-size: 18px;
   }
 
-  b{
+  b {
     font-size: 18px;
   }
 
@@ -6729,7 +6760,7 @@ input::placeholder {
     font-size: 15px;
   }
 
-  .albtn button{
+  .albtn button {
 
     font-size: 15px;
     width: 35%;
@@ -6754,7 +6785,7 @@ input::placeholder {
     background: white;
   }
 
-  .testimonial-card p{
+  .testimonial-card p {
     font-size: 17px;
   }
 
@@ -6762,15 +6793,15 @@ input::placeholder {
     margin-top: 100px;
   }
 
-  .testi .trg{
+  .testi .trg {
     font-size: 17px;
   }
 
-  .testi .rtg{
+  .testi .rtg {
     font-size: 18px;
   }
 
-  .testi h2{
+  .testi h2 {
     font-size: 45px;
   }
 
@@ -6862,11 +6893,11 @@ input::placeholder {
     right: 25px;
   }
 
-  .faq-left p{
+  .faq-left p {
     font-size: 18px;
   }
 
-  .faq-left h1{
+  .faq-left h1 {
     font-size: 45px;
   }
 
@@ -6906,18 +6937,19 @@ input::placeholder {
     gap: 60px;
   }
 
-  .time .hjh{
+  .time .hjh {
     font-size: 20px;
   }
 
-  .time i{
+  .time i {
     font-size: 18px;
   }
-  .dsh{
+
+  .dsh {
     margin-left: 3px;
   }
 
-  .time .sched{
+  .time .sched {
     font-size: 18.8px;
   }
 
@@ -6931,11 +6963,11 @@ input::placeholder {
     font-weight: 600;
   }
 
-  .contact-list b{
+  .contact-list b {
     font-size: 18px;
   }
 
-  .contact-list li{
+  .contact-list li {
     font-size: 17px;
   }
 
@@ -6987,7 +7019,7 @@ input::placeholder {
     font-size: 20px;
   }
 
-  .abc{
+  .abc {
     font-size: 17px;
   }
 
@@ -7041,4 +7073,3 @@ input::placeholder {
   }
 
 }
-
