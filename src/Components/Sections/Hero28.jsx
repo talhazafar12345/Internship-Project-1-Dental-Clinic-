@@ -6,7 +6,6 @@ function Hero28() {
                 <div className="ser1 kk2 mmf">
                     <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-4-70x70.png" alt="" />
                     <p className="dolar">$ 25.00 per visit</p>
-
                     <h2>Restortative Dentistry</h2>
                     <p>Restore damaged teeth with fillings, crowns, and advanced treatments for life.</p>
                     <button>Read More</button>
