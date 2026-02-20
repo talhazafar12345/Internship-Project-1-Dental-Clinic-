@@ -4022,20 +4022,20 @@ width:20%
   }
 
   .mdt h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.4;
     width: 80%;
     margin: auto;
   }
 
   .mdtt {
-    font-size: 16px;
+    font-size: 21px;
     margin-bottom: 10px;
     font-weight: bold !important;
   }
 
   .mdt .edt {
-    font-size: 16px;
+    font-size: 22px;
     width: 90%;
     margin-top: 20px;
     line-height: 1.8;
@@ -4061,7 +4061,7 @@ width:20%
 
   .drsarah {
     position: absolute;
-    bottom: 35px;
+    bottom: 55px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
@@ -4071,6 +4071,7 @@ width:20%
     line-height: 1.6;
     padding: 10px;
     text-align: center;
+    height: 130px;
   }
 
   .aaa,
@@ -4081,11 +4082,11 @@ width:20%
   }
 
   .drsarah .lead {
-    font-size: 16px;
+    font-size: 21px;
   }
 
   .drsarah .drnamm {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .allnum {
@@ -4097,7 +4098,7 @@ width:20%
   }
 
   .ten .tent {
-    font-size: 28px;
+    font-size: 38px;
   }
 
   .bkl {
@@ -4108,7 +4109,7 @@ width:20%
   .tena,
   .tens,
   .ten .happ {
-    font-size: 14px;
+    font-size: 21px;
   }
 
   .aaa,
