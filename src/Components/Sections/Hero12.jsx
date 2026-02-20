@@ -56,7 +56,7 @@ function Hero12() {
         {testimonials.map((item, index) => (
           <div key={index} className="testimonial-card">
             <img src={item.img} alt={item.name} />
-            <p>"{item.text}"</p>
+            <p>{item.text}</p>
             <h3>{item.name}</h3>
             <span>{item.role}</span>
           </div>

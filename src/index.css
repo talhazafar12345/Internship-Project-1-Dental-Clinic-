@@ -4125,14 +4125,14 @@ width:20%
   }
 
   .faq-left h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.4;
     width: 100%;
   }
 
   .faq-left p {
     color: #4a7cd2;
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     font-weight: bold;
   }
@@ -4154,12 +4154,12 @@ width:20%
   }
 
   .question {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .accordion-content {
     right: 0;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.8;
   }
 
@@ -4225,16 +4225,17 @@ width:20%
     flex: 0 0 75%;
     padding: 20px 15px;
     border-radius: 12px;
+    height: 240px;
   }
 
   .testimonial-card img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 10px;
   }
 
   .testimonial-card p {
-    font-size: 16px;
+    font-size: 21px;
     line-height: 1.8;
     margin-bottom: 8px;
   }
@@ -4245,25 +4246,25 @@ width:20%
   }
 
   .testimonial-card h3 {
-    font-size: 18px;
+    font-size: 23px;
   }
 
   .testimonial-card span {
-    font-size: 16px;
+    font-size: 21px;
   }
 
   .testi h2 {
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
     bottom: 10px;
   }
 
   .testi .rtg {
-    font-size: 16px;
+    font-size: 23px;
   }
 
   .testi .trg {
-    font-size: 16px;
+    font-size: 23px;
     width: 90%;
     text-align: justify;
     position: relative;
@@ -4353,7 +4354,7 @@ width:20%
   }
 
   .mainc {
-    height: 630px;
+    height: 730px;
     padding: 40px 10px 20px
   }
 
