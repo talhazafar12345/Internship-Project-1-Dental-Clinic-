@@ -1,4 +1,3 @@
-import 'animate.css';
 function Hero5() {
     return (
         <div className="wdiv">
