@@ -6,7 +6,7 @@ function Hero27() {
      return (
           <div>
                <div className="allserimg kk1">
-                    <div className="ser1 kk2">
+                    <div className="ser1 kk2 ">
                          <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-1-70x70.png" alt="" />
                          <p className="dolar">$ 12.00 per visit</p>
                          <h2>General Dentistry</h2>
@@ -31,7 +31,7 @@ function Hero27() {
                     </div>
 
                        <div className="ser1 kk2">
-                         <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-3-70x70.png" alt="" />
+                         <img src="https://demo.bravisthemes.com/dentia/wp-content/uploads/2025/08/tooth-2-70x70.png" alt="" />
                          <p className="dolar">$ 7.00 per visit</p>
                          <h2>Endodontics</h2>
                          <p>A periodontist focuses on the gums and supporting structures of the teeth.</p>
