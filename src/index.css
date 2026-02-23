@@ -5728,7 +5728,7 @@ input::placeholder {
     margin-bottom: 20px;
   }
 
-  .hero16-features {
+  wwww .hero16-features {
     grid-template-columns: 1fr;
     gap: 15px;
   }
@@ -6277,16 +6277,28 @@ input::placeholder {
 
   .faci,
   .facis {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    font-size: 15px;
+    font-size: 13px;
     gap: 0;
-    margin-left: 20px;
     line-height: 2.0;
   }
 
+
+  .icaf {
+    display: none !important;
+  }
+
+
+
   .state i {
-    margin-left: 0;
+    margin-left: 20px;
+  }
+
+
+
+  .pedd {
+    margin-left: 80px;
   }
 
   .general {
@@ -6294,8 +6306,9 @@ input::placeholder {
     align-items: center;
     text-align: center;
     gap: 10px;
-    margin-top:-40px;
-
+    margin-top: -40px;
+    position: relative;
+    right: 60px;
 
   }
 
@@ -6307,13 +6320,13 @@ input::placeholder {
   }
 
   .jkp h3 {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .gbutton button {
-    width: 80%;
+
     height: 30px;
-    max-width: 100px;
+    max-width: 130px;
     margin: 0 auto;
     font-size: 15px !important;
   }
@@ -6366,7 +6379,7 @@ input::placeholder {
     flex-direction: row;
     gap: 0px;
     margin-top: 40px;
-    
+
   }
 
   .sarah {
@@ -6386,7 +6399,7 @@ input::placeholder {
     bottom: 55px;
     left: 50%;
     transform: translateX(-50%);
-    width:65%;
+    width: 65%;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
     line-height: 1.6;
@@ -6395,22 +6408,22 @@ input::placeholder {
     height: 60px;
   }
 
-  .aaa{
+  .aaa {
     position: relative;
     left: 0;
   }
 
-  .jmm{
+  .jmm {
     position: relative;
     left: 30px;
   }
 
-  .bkl{
+  .bkl {
     position: relative;
     left: 40px;
   }
 
-  .bbb{
+  .bbb {
     position: relative;
     left: 8px !important;
   }
@@ -6425,7 +6438,7 @@ input::placeholder {
   }
 
   .allnum {
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 120px;
@@ -6598,7 +6611,7 @@ input::placeholder {
   }
 
   .testi .trg {
-    font-size:20px;
+    font-size: 20px;
     width: 80%;
     text-align: justify;
     position: relative;
@@ -6613,7 +6626,7 @@ input::placeholder {
   }
 
   .footer-container {
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 0px;
@@ -6641,9 +6654,9 @@ input::placeholder {
     width: 150px;
   }
 
-  .logo-col{
-   position: relative;
-   left: 30px;
+  .logo-col {
+    position: relative;
+    left: 30px;
   }
 
   .footer-col {
@@ -6663,10 +6676,10 @@ input::placeholder {
   .bbm {
     left: 0;
     font-size: 14px;
-  
+
   }
 
-  .ppp{
+  .ppp {
     left: 40px;
   }
 
@@ -6697,8 +6710,9 @@ input::placeholder {
     top: 20px;
   }
 
-  .footer-social i{
+  .footer-social i {
     font-size: 20px;
+    margin-right: 20px;
   }
 
   .footer-bottom {
@@ -6766,7 +6780,7 @@ input::placeholder {
   }
 
   .alkimg {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-left: 0;
     gap: 15px;
@@ -6776,13 +6790,19 @@ input::placeholder {
 
   .pkimg img,
   .hkimg img {
-    width: 90%;
+    width: 240px;
     border-radius: 16px;
   }
 
   .hkimg img {
-    margin-top: 20px;
+    margin-top: -180px;
   }
+
+  .pkimg img {
+    margin-top: -280px;
+    margin-left: 40px;
+  }
+
 
   .apws {
     margin-left: 0;
@@ -6791,14 +6811,14 @@ input::placeholder {
   }
 
   .apws h1 {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1.4;
     text-align: left;
     margin-left: 20px;
   }
 
   .abouts {
-    font-size: 25px;
+    font-size: 18px;
     text-align: left;
     margin-top: 20px;
     margin-left: 26px;
@@ -6812,16 +6832,17 @@ input::placeholder {
   }
 
   .albtns button {
-    font-size: 22px;
-    height: 50px;
-    width: 220px;
+    font-size: 16px;
+    height: 40px;
+    width: 180px;
   }
 
   .wohs {
     text-align: left;
     margin-left: 20px;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.8;
+    width: 80%;
   }
 
   .ped {
@@ -6843,7 +6864,7 @@ input::placeholder {
   }
 
   .hero16 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     text-align: left;
     padding: 30px 6%;
@@ -6856,34 +6877,36 @@ input::placeholder {
   }
 
   .hero16-subtitle {
-    font-size: 23px;
-    margin-bottom: 10px;
+    font-size: 20px;
     margin-left: 3px;
+    margin-top: 50px;
   }
 
   .hero16-title {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1.4;
     margin-bottom: 12px;
   }
 
   .hero16-desc {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.8;
     margin-bottom: 20px;
   }
 
+
+
   .hero16-features {
-    grid-template-columns: 1fr;
+
     gap: 15px;
   }
 
   .feature h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .feature p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.8;
   }
 
@@ -6899,15 +6922,19 @@ input::placeholder {
 
   .hero16-grid {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 18px;
-    margin-left: 0;
+    gap: 1px;
+    display: none;
+
+
+
   }
 
   .hero16-img {
-    width: 100%;
+    width: 200px;
     height: auto;
     border-radius: 16px;
+
+
   }
 
   .hero16-img.small {
@@ -6916,13 +6943,17 @@ input::placeholder {
   }
 
   .allserimg {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
   }
 
+
   .ser1 {
-    width: 55%;
     padding-bottom: 40px;
+    height: 310px;
+  
   }
 
   .kk2 {
@@ -6931,25 +6962,35 @@ input::placeholder {
 
 
   .ser1 button {
-    font-size: 20px;
-
+    font-size: 15px;
+    width: 70%;
+    
   }
 
   .ser1 p {
-    font-size: 22px;
+    font-size: 15px;
     line-height: 1.8;
+    width: 90%;
+  }
+
+  .kk2 p{
+    font-size: 16px !important;
+  }
+
+  .kk2{
+    padding-bottom: 120px;
   }
 
   .dolar {
-    font-size: 24px !important;
+    font-size: 16px !important;
   }
 
   .ser1 h2 {
-    font-size: 24px;
+    font-size: 15px;
   }
 
   .aks {
-    margin-top: -75px;
+    margin-top: -30px;
 
   }
 
@@ -6981,35 +7022,18 @@ input::placeholder {
     margin-top: 20px;
   }
 
+
   .profile-card {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 85%;
-    height: auto;
-    margin: 30px auto;
-    padding: 20px 15px;
-    border-radius: 15px;
-    position: relative;
-    padding-bottom: 23px;
+    height: 580px;
   }
 
-  .profile-left {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
+  .profile-right {
+    margin-top: -40px;
   }
 
   .profile-left img {
-    width: 96%;
-    height: auto;
-    border-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    position: relative;
-    right: 0;
-    bottom: 0;
+    height: 650px;
   }
 
   .dsh {
@@ -7018,21 +7042,14 @@ input::placeholder {
 
   }
 
-  .profile-right {
-    width: 100%;
-    padding: 0 10px;
-    margin: 0;
-    padding-top: 30px;
-    padding-left: 30px;
-  }
 
   .profile-right h2 {
-    font-size: 24px;
+    font-size: 23px;
     margin-bottom: 5px;
   }
 
   .role {
-    font-size: 23px;
+    font-size: 20px;
     color: #4a7cd2;
     margin-bottom: 15px;
   }
@@ -7049,7 +7066,7 @@ input::placeholder {
   .section p,
   .section li,
   .section div {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.8;
   }
 
@@ -7064,7 +7081,7 @@ input::placeholder {
   }
 
   .social i {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .card-number {
@@ -7350,6 +7367,7 @@ input::placeholder {
     font-size: 15px;
   }
 
+
   .dsh {
     position: relative;
     left: 0;
@@ -7418,7 +7436,7 @@ input::placeholder {
     width: 100%;
   }
 
-  .pedd {
+  .state {
     margin-left: 38px;
   }
 
