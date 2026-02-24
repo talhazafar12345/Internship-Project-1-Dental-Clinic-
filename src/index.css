@@ -2089,6 +2089,10 @@ input::placeholder {
     top: 20px;
   }
 
+  .footer-social i{
+    font-size: 20px;
+  }
+
   .footer-bottom {
     flex-direction: column;
     gap: 10px;
@@ -6995,7 +6999,7 @@ input::placeholder {
   }
 
   .aks {
-    margin-top: -28px;
+    margin-top: -27px;
 
   }
 
