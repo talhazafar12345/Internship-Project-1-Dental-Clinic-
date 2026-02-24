@@ -64,7 +64,7 @@ function Hero30() {
               </p>
               <p className="sched">Monday – Friday 08.00 – 18.00</p>
             </div>
-            <div className="time">
+            <div className="time ssr">
               <p className="cir">
                 <i className="fa-solid fa-location-dot xcv"></i> <span className="hjh"> Clinic Location</span>
               </p>
@@ -80,7 +80,7 @@ function Hero30() {
             </div>
             <div className="time">
               <p className="cir ric">
-                <i className="fa-solid fa-message xcv"></i> <span className="hjh"> Send a Messsage</span>
+                <i className="fa-solid fa-message xcv"></i> <span className="hjh hhj"> Send a Messsage</span>
               </p>
               <p className="sched dsh">contact@dentiacare.com</p>
             </div>

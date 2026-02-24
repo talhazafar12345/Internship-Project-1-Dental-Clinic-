@@ -47,7 +47,7 @@ function Hero33() {
                             value={formData.name}
                             onChange={handleChange}
                         />
-                        {errors.name && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "3px", textAlign: "left" }}  >{errors.name}</p>}
+                        {errors.name && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}  >{errors.name}</p>}
                     </div>
                     <div className="dddinp">
                         <input
@@ -57,7 +57,7 @@ function Hero33() {
                             value={formData.email}
                             onChange={handleChange}
                         />
-                        {errors.email && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "3px", textAlign: "left" }} >{errors.email}</p>}
+                        {errors.email && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }} >{errors.email}</p>}
                     </div>
 
                     <div className="cbutton">

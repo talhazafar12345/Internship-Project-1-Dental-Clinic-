@@ -2476,13 +2476,14 @@ input::placeholder {
   }
 
   .contact-form {
-    width: 70%;
+ 
     margin-left: 0;
     border-radius: 20px;
     position: relative;
     left: 0;
     margin-top: 40px;
     padding-bottom: 63px;
+    width: 70% !important;
 
 
 
@@ -6587,10 +6588,6 @@ input::placeholder {
     margin-bottom: 8px;
   }
 
-  .ric {
-    position: relative;
-    left: 0;
-  }
 
   .testimonial-card h3 {
     font-size: 20px;
@@ -7097,7 +7094,7 @@ input::placeholder {
   }
 
   .contact-wrapper {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     margin-top: 60px;
@@ -7105,77 +7102,81 @@ input::placeholder {
   }
 
   .contact-info {
-    text-align: left;
+    
     width: 90%;
     margin-left: 20px;
   }
 
   .geti {
-    font-size: 23px !important;
+    font-size:18px !important;
   }
 
   .contact-info h2 {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1.4;
     text-align: left;
-    width: 90%;
-    max-width: 100%;
+    width: 100%;
   }
 
   .contact-info p {
-    font-size: 23px;
+    font-size: 16px;
     line-height: 1.8;
     text-align: justify;
-    width: 85%;
+    width: 90%;
   }
 
-  .mtime,
-  .mtimes {
-    flex-direction: column;
-    gap: 10px;
-    text-align: left;
-  }
 
-  .time {
-    margin-bottom: -10px;
-  }
-
-  .time .sched {
-    font-size: 21px;
-  }
-
+ 
   .contact-field input::placeholder {
-    font-size: 21px;
+    font-size: 17px;
+  }
+
+  .contact-field input{
+    width: 70%;
+    margin: auto;
   }
 
   .contact-field textarea {
-    font-size: 21px;
+    font-size: 17px;
+    width: 70%;
+    margin: auto;
   }
 
-  .kkp {
-    margin-top: 10px;
-  }
+.contact-form {
+  flex: 1;
+  max-width: 450px;
+  background: #ebf2fa;
+  padding: 25px;
+  border-radius: 10px;
+  margin-right: 90px;
+  padding-bottom: 55px;
+  margin-top: 50px;
+}
 
-  .contact-form {
-    width: 75%;
-    margin-left: 0;
-    border-radius: 20px;
-    position: relative;
-    left: 0;
-    margin-top: 40px;
-    margin-right: 25px;
-    padding-bottom: 55px;
+.mtime, .mtimes{
+  display: none;
+}
 
-  }
+
+
+
+
 
   .contact-form h3 {
-    font-size: 26px;
-    text-align: left;
+    font-size: 22px;
+    text-align: center;
     margin-left: 5px;
   }
 
   .btn-send {
-    font-size: 22px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .ssr{
+    position: relative;
+    right: 100px;
   }
 
   .error-box {
@@ -7196,14 +7197,10 @@ input::placeholder {
     margin-top: 60px;
   }
 
-  .xcv,
-  .contact-info .hjh {
-    font-size: 23px;
-    text-align: left;
-  }
+ 
 
   .uinp {
-    width: 80%;
+    width: 50%;
     padding: 30px 15px;
     gap: 40px;
     padding-bottom: 40px;
@@ -7219,7 +7216,7 @@ input::placeholder {
 
   .dddinp input::placeholder {
 
-    font-size: 21px;
+    font-size: 17px;
   }
 
   .doct h1 {
@@ -7242,7 +7239,6 @@ input::placeholder {
 
   .cbutton {
     width: 100%;
-    font-size: 16px;
     height: 40px;
     margin-bottom: 20px;
   }
@@ -7250,7 +7246,7 @@ input::placeholder {
   .cbutton button {
     position: relative;
     bottom: 20px;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .errors-text {
@@ -7262,6 +7258,7 @@ input::placeholder {
   .errors-texts {
     text-align: center;
     padding-top: 4px;
+
   }
 
   .abff {

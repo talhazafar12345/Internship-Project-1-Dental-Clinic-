@@ -52,7 +52,7 @@ function Hero32() {
               value={formData.name}
               onChange={handleChange}
             />
-            {errors.name && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "3px", textAlign: "left" }}>{errors.name}</p>}
+            {errors.name && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}>{errors.name}</p>}
           </div>
           <div className="dddinp">
             <input
@@ -62,7 +62,7 @@ function Hero32() {
               value={formData.dob}
               onChange={handleChange}
             />
-            {errors.dob && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "3px", textAlign: "left" }}>{errors.dob}</p>}
+            {errors.dob && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}>{errors.dob}</p>}
           </div>
           <div className="dddinp">
             <input
@@ -72,7 +72,7 @@ function Hero32() {
               value={formData.email}
               onChange={handleChange}
             />
-            {errors.email && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "3px", textAlign: "left" }}>{errors.email}</p>}
+            {errors.email && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}>{errors.email}</p>}
           </div>
           <div className="dddinp">
             <input
@@ -82,7 +82,7 @@ function Hero32() {
               value={formData.phone}
               onChange={handleChange}
             />
-            {errors.phone && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "3px", textAlign: "left" }}>{errors.phone}</p>}
+            {errors.phone && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}>{errors.phone}</p>}
           </div>
           <div className="dddinp">
             <input
@@ -92,7 +92,7 @@ function Hero32() {
               value={formData.address}
               onChange={handleChange}
             />
-            {errors.address && <p className="errors-text" style={{ color: "red", marginTop: "5px", marginLeft: "4px", textAlign: "left" }}>{errors.address}</p>}
+            {errors.address && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}>{errors.address}</p>}
           </div>
           <div className="cbutton">
             <button type="submit">Submit</button>
