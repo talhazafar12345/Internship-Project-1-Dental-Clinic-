@@ -1230,7 +1230,7 @@ hr {
 }
 
 .kk2 {
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 
 .srr img {
@@ -1287,6 +1287,7 @@ hr {
   left: 40px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 60px;
 }
 
 .contact-form h3 {
@@ -1403,7 +1404,7 @@ hr {
   margin-top: 80px;
   padding: 50px 0 20px;
   border-radius: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .uinp h1 {
@@ -7427,6 +7428,7 @@ input::placeholder {
     gap: 6px;
     font-size: 15px;
     line-height: 1.6;
+    margin-left: 65px !important;
   }
 
   .tate {
@@ -7517,14 +7519,25 @@ input::placeholder {
 
   .ser1 {
     width: 48%;
+    padding-bottom:52px;
   }
+
+  .kk2{
+    padding-bottom: 165px;
+  }
+
+  .kk2 p{
+    font-size: 21px !important;
+  }
+
+
 
   .ser1 h2 {
     font-size: 20px;
   }
 
   .ser1 p {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.8;
   }
 
@@ -7532,6 +7545,10 @@ input::placeholder {
     width: 15%;
     border-radius: 16px;
     display: none;
+  }
+
+  .drnamm{
+    font-size: 18px !important;
   }
 
   .sarah img {
@@ -7563,7 +7580,7 @@ input::placeholder {
   }
 
   .aasarah {
-    margin-top: 10px;
+    margin-top: 100px;
   }
 
   .mainc {
@@ -7777,6 +7794,9 @@ input::placeholder {
     gap: 120px;
   }
 
+  .aks{
+    margin-top: -4px;
+  }
   .contact-info .geti {
     font-size: 18px;
     color: #4b7edb;

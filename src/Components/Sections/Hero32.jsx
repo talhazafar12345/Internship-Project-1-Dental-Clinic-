@@ -62,7 +62,7 @@ function Hero32() {
               value={formData.dob}
               onChange={handleChange}
             />
-            {errors.dob && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "15px", textAlign: "left" }}>{errors.dob}</p>}
+            {errors.dob && <p className="errors-text" style={{ color: "red", marginTop: "10px", marginLeft: "10px", textAlign: "left" }}>{errors.dob}</p>}
           </div>
           <div className="dddinp">
             <input
