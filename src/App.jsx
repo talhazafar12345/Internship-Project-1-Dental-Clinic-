@@ -1,5 +1,4 @@
 import Routing from "./Components/Routing/Routing"
-import 'animate.css';
 
 
 

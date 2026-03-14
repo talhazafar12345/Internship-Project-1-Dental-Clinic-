@@ -2024,8 +2024,15 @@ input::placeholder {
     text-align: center;
     box-sizing: border-box;
     padding: 40px 10px 20px;
+    margin-top: -20px;
+    
   }
 
+  .mainc {
+    height: auto;
+  }
+
+  
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -2105,11 +2112,7 @@ input::placeholder {
     margin-right: 15px;
   }
 
-  .mainc {
-    height: 630px;
-    padding: 40px 10px 20px
-  }
-
+  
   .ppb {
     line-height: 2;
     font-size: 16px;
